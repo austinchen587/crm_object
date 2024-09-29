@@ -75,6 +75,7 @@ function App() {
       const token = response.data.token;  // 假设后端返回Token
       const returnedUsername = response.data.username;  // 假设后端返回用户名
       const returnedRole = response.data.role;  // 假设后端返回角色
+      const userId = response.data.user_id;  // 假设后端返回用户ID
 
       // 检查是否有role返回
       if (!returnedRole) {
@@ -84,10 +85,13 @@ function App() {
       }
 
 
+      
+
       // 存储Token到localStorage
       localStorage.setItem('token', token);  // 将Token存储到localStorage
       localStorage.setItem('username', returnedUsername);  // 确保用户名存储
       localStorage.setItem('role', returnedRole); // 确保角色存储
+      
       
       console.log('Token存储成功:', token);
       setToken(token);  // 更新Token

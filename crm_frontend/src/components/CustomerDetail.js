@@ -74,12 +74,20 @@ const CustomerDetail = ({ token, role: passedRole }) => {
         return <div>Customer not found</div>;
     }
 
+
+    // 调试信息，检测 role 和 created_by 的值
+    const currentUsername = localStorage.getItem('username'); // 从localStorage获取当前用户名
+    console.log("currentRole:", role);
+    console.log("customer.created_by:", customer.created_by); // 打印 created_by 直接返回用户名
+    console.log("current username from localStorage:", currentUsername);
+
+    // customer.created_by 已经是用户名字符串
+    const createdByUsername = customer.created_by || ''; // 如果 created_by 未定义，返回空字符串
+    console.log("createdByUsername:", createdByUsername); // 打印实际使用的用户名
+
     // 判断是否显示修改和删除按钮
-    //const canEditOrDelete = role === 'admin' || role === 'group_leader' || customer.created_by === role;
-    const canEdit = (role==='admin' || role==='group_leader' || customer.created_by=== role);
-    const canDelete = role ==='admin' || (role=== 'group_leader' && customer.created_by_group=== role);
-
-
+    const canEdit = role === 'admin' || role === 'group_leader' || createdByUsername === currentUsername;
+    const canDelete = role === 'admin' || (role === 'group_leader' && customer.created_by?.group_leader === role);
 
     return (
         <div>

@@ -17,6 +17,7 @@ class CustomerSerializer(serializers.ModelSerializer):
     #updated_by = serializers.DateField(format="%Y-%m-%d",read_only=True)
     created_at = serializers.SerializerMethodField()
     updated_at = serializers.SerializerMethodField()
+   
 
     class Meta:
         model = Customer # 绑定到Customer模型

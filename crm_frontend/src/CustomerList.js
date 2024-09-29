@@ -11,6 +11,33 @@ const CustomerList = ({ token, customerUpdated }) => {
   const [dateError, setDateError] = useState('')  // 日期选择错误的状态
   const navigate = useNavigate();  // 用于导航到客户详细页面
 
+  // 日期过滤逻辑函数
+  const filterCustomersByDate = (allCustomers) => {
+    console.log("验证日期过滤逻辑...");
+    console.log("开始日期:", startDate);
+    console.log("结束日期:", endDate);
+    console.log("当前客户列表:", allCustomers);
+
+    if (startDate && endDate) {
+      const filteredCustomers = allCustomers.filter(customer => {
+        const createdAt = new Date(customer.created_at).getTime();
+        const start = new Date(startDate).getTime();
+        const end = new Date(endDate).getTime();
+        return createdAt >= start && createdAt <= end;
+      });
+      return filteredCustomers;
+    }
+    return allCustomers;
+  };
+
+  // 计算未更新天数的函数
+  const calculateDaysSinceUpdate = (lastUpdated) => {
+    const currentDate = new Date();
+    const updatedDate = new Date(lastUpdated);
+    const timeDiff = currentDate - updatedDate;
+    const dayDiff = Math.floor(timeDiff / (1000 * 3600 * 24)); // 转换为天数
+    return dayDiff >= 0 ? dayDiff : 'N/A'; // 如果计算出有效天数，返回天数；否则返回'N/A'
+  };
 
   // 使用useEffect在组件加载时发起HTTP请求
   useEffect(() => {
@@ -27,9 +54,6 @@ const CustomerList = ({ token, customerUpdated }) => {
 
       // 构建请求URL，包含可选的日期过滤参数
       let url = `http://localhost:8000/customers/`;
-      if (startDate && endDate) {
-        url += `?start_date=${startDate}&end_date=${endDate}`;
-      }
 
       setLoading(true);  // 请求开始，设置loading为true
       axios.get(url, {
@@ -37,44 +61,38 @@ const CustomerList = ({ token, customerUpdated }) => {
       })
         .then(response => {
           const responseData = response.data;
-          console.log("Response from backend:", responseData);
+          console.log("从后端收到的响应数据:", responseData);
 
-          // 提取客户数据，将所有创建者下的客户整合成一个数组
-          const allCustomers = Object.values(responseData).flat(); // 将对象中的所有数组合并为一个大数组
-
-          setCustomers(allCustomers); // 更新客户列表
-          console.error("Customer list parsed and set:", allCustomers);
-          setLoading(false)  // 请求结束，设置loading为false
+          // 提取客户数据，如果后端返回的是对象，则提取其中的数组
+          const allCustomers = Object.values(responseData).flat();
+          
+          // 过滤客户数据，按照日期范围筛选
+          const filteredCustomers = filterCustomersByDate(allCustomers);
+          
+          setCustomers(filteredCustomers); // 更新客户列表
+          console.log("筛选后的客户列表:", filteredCustomers);
+          setLoading(false);  // 请求结束，设置loading为false
           
         })
         .catch(error => {
-          console.error("Error fetching customers:", error.response?.data || error.message);  // 打印详细错误信息
+          console.error("获取客户列表时出错:", error.response?.data || error.message);  // 打印详细错误信息
           setErrorMessage("Failed to fetch customers: " + (error.response?.data?.message || 'Unknown error'));
           setLoading(false); // 请求结束，设置loading为false
         });
-    } else {
-      console.log("No token provided!");
-      setLoading(false);  // 如果没有token，停止loading
+
     }
-  }, [token, customerUpdated,startDate,endDate]);  // 每当token或customerUpdated变化时重新获取客户数据 // 监听日期和客户更新变化
+  }, [token, customerUpdated, startDate, endDate]);  // 每当token或customerUpdated变化时重新获取客户数据 // 监听日期和客户更新变化
 
   // 处理按照创建者分组的函数
   const groupCustomersByUser = (customerList) => {
     console.log("Grouping customers by user", customerList);
-    return customers.reduce((acc,customer) => {
+    return customers.reduce((acc, customer) => {
       const creator = customer.created_by || '未知用户';
-      if (!acc[creator]) {
-        acc[creator] = [];
-      }
+      if (!acc[creator]) acc[creator] = [];      
       acc[creator].push(customer);
       return acc;
     }, {});
   };
-
-  // 如果loading中，显示加载中信息
-  if (loading) {
-    return <div>加载中...</div>
-  }
 
   // 日期选择错误时，显示错误信息
   if (dateError) {
@@ -87,8 +105,13 @@ const CustomerList = ({ token, customerUpdated }) => {
     );
   }
 
+  // 如果loading中，显示加载中信息
+  if (loading) {
+    return <div>加载中...</div>
+  }
+
   // 如果没有客户，显示增加客户的功能
-  if (!customers.length && !dateError) {
+  if (!customers.length) {
     console.log("No customers found in list:", customers);
     return (
       <div>
@@ -102,8 +125,8 @@ const CustomerList = ({ token, customerUpdated }) => {
     );
   }
 
-  //分组后的客户列表
-  const groupedCustomers =groupCustomersByUser(customers);
+  // 分组后的客户列表
+  const groupedCustomers = groupCustomersByUser(customers);
   console.log("Grouped customers:", groupedCustomers);
 
   return (
@@ -136,6 +159,7 @@ const CustomerList = ({ token, customerUpdated }) => {
                 <th>姓名</th>
                 <th>创建日期</th>
                 <th>最近修改日期</th>
+                <th>未更新天数</th> {/* 新增未更新天数列 */}
                 <th>操作</th>
               </tr>
             </thead>
@@ -145,6 +169,7 @@ const CustomerList = ({ token, customerUpdated }) => {
                   <td>{customer.name}</td>
                   <td>{new Date(customer.created_at).toLocaleDateString()}</td> {/* 显示年月日 */}
                   <td>{customer.updated_at ? new Date(customer.updated_at).toLocaleDateString() : '未修改'}</td>  {/* 显示年月日 */}
+                  <td>{customer.updated_at ? calculateDaysSinceUpdate(customer.updated_at) : 'N/A'}</td> {/* 计算并显示未更新天数 */}
                   <td>
                     <button onClick={() => navigate(`/customer-detail/${customer.id}`)}>查看详细信息</button>
                   </td>
