@@ -27,7 +27,7 @@ const Register = () => {
   
       try {
         // 发送注册请求到后端API
-        const response = await axios.post('http://127.0.0.1:8000/register/', {
+        const response = await axios.post('http://47.96.23.135:8000/register/', {
           username,
           password,
         });

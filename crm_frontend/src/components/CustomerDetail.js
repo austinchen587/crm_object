@@ -17,7 +17,7 @@ const CustomerDetail = ({ token, role: passedRole }) => {
         if (token && id) {
             // 确保 token 和 id 存在
             console.log("Token and ID are both valid. Sending request...");
-            axios.get(`http://localhost:8000/customer-detail/${id}/`, {
+            axios.get(`http://47.96.23.135:8000/customer-detail/${id}/`, {
                 headers: { Authorization: `Token ${token}` },
             })
             .then(response => {
@@ -47,7 +47,7 @@ const CustomerDetail = ({ token, role: passedRole }) => {
             }
             
             console.log(`Deleting customer ${id} as ${role}`);
-            axios.delete(`http://localhost:8000/customer-detail/${id}/`, {
+            axios.delete(`http://47.96.23.135:8000/customer-detail/${id}/`, {
                 headers: { Authorization: `Token ${token}` },
             })
             .then(() => {

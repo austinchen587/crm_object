@@ -39,7 +39,7 @@ const CustomerForm = ({ token, onCustomerAdded }) => {
 
     console.log('Submitting new customer:', newCustomer);  // 输出提交的数据
 
-    axios.post('http://localhost:8000/customers/', newCustomer, {
+    axios.post('http://47.96.23.135:8000/customers/', newCustomer, {
       headers: {
         Authorization: `Token ${token}`,  // 在请求头中添加Token
         'Content-Type': 'application/json',

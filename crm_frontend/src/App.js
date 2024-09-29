@@ -32,7 +32,8 @@ function App() {
     if (token) {
       console.log('Sending token to verify...');  // 调试点：检查发送到后端的Token验证
       // 验证Token
-      axios.get('http://localhost:8000/token-verify/', {
+      //axios.get('http://localhost:8000/token-verify/', {
+      axios.get('http://47.96.23.135:8000/token-verify/', {
         headers: { Authorization: `Token ${token}` },
       })
       .then(response => {
@@ -60,7 +61,8 @@ function App() {
   const handleLogin = () => {
     console.log("Username:", username);  // 检查用户名
     console.log("Password:", password);  // 检查密码
-    axios.post('http://localhost:8000/login/', {
+    //axios.post('http://localhost:8000/login/', {
+      axios.post('http://47.96.23.135:8000/login/', {
       username: username,
       password: password,
     },

@@ -53,7 +53,7 @@ const CustomerList = ({ token, customerUpdated }) => {
       }
 
       // 构建请求URL，包含可选的日期过滤参数
-      let url = `http://localhost:8000/customers/`;
+      let url = `http://47.96.23.135:8000/customers/`;
 
       setLoading(true);  // 请求开始，设置loading为true
       axios.get(url, {

@@ -20,7 +20,7 @@ const EditCustomer = ({ token }) => {
   useEffect(() => {
     // 获取当前客户详细信息
     axios
-      .get(`http://localhost:8000/customer-detail/${id}/`, {
+      .get(`http://47.96.23.135:8000/customer-detail/${id}/`, {
         headers: { Authorization: `Token ${token}` },
       })
       .then((response) => {
@@ -50,7 +50,7 @@ const EditCustomer = ({ token }) => {
     console.log("Submitting updated customer data:", requestData);
 
     axios
-      .put(`http://localhost:8000/customer-detail/${id}/`, requestData, {
+      .put(`http://47.96.23.135:8000/customer-detail/${id}/`, requestData, {
         headers: { Authorization: `Token ${token}` },
       })
       .then((response) => {
