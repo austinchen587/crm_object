@@ -3,9 +3,21 @@ from .models import Customer, SalesUser  # 导入Customer模型
 from django.contrib.auth.admin import UserAdmin  # 导入Django默认UserAdmin类
 from .forms import SalesUserCreationForm  # 导入自定义的用户创建表单
 from django.utils.html import format_html  # 用于在admin界面中格式化HTML
+from import_export.admin import ImportExportModelAdmin
+from import_export import resources  # 导入 resources 用于自定义导出逻辑
+
+
+
+# 定义导出SalesUser的数据资源
+class SalesUserResource(resources.ModelResource):
+    class Meta:
+        model = SalesUser
+        fields = ('id', 'username', 'email', 'role', 'group_leader', 'is_staff', 'is_active')  # 定义要导出的字段
+        export_order = fields
 
 # 自定义SalesUser的Admin管理界面
-class SaleUserAdmin(UserAdmin):
+class SaleUserAdmin(ImportExportModelAdmin, UserAdmin):
+    resource_class = SalesUserResource  # 绑定资源类
     model = SalesUser  # 确保这里正确指定模型
     # 继承Django默认的UserAdmin以确保密码处理正确
     add_form = SalesUserCreationForm  # 用于在Admin中创建用户时使用的表单
@@ -39,9 +51,18 @@ class SaleUserAdmin(UserAdmin):
         super().save_model(request,obj,form,change)
 
 
+# 定义导出Customer的数据资源
+class CustomerResource(resources.ModelResource):
+    class Meta:
+        model = Customer
+        fields = ('id', 'name', 'phone', 'wechat_id', 'address', 'description', 'created_by', 'updated_by', 'created_at', 'updated_at')  # 定义要导出的字段
+        export_order = fields  # 设置导出顺序
+
+
 
 # 自定义Customer的Admin管理界面
-class CustomerAdmin(admin.ModelAdmin):
+class CustomerAdmin(ImportExportModelAdmin):    # 继承 ImportExportModelAdmin
+    resource_class = CustomerResource  # 绑定资源类
     list_display = ('name', 'phone', 'created_by', 'updated_by', 'created_at', 'updated_at') # 定义显示的字段
     list_filter = ('created_by', 'updated_by', 'created_at')  # 添加过滤器
     search_fields = ('name', 'phone') # 添加搜索功能
@@ -68,10 +89,10 @@ class CustomerAdmin(admin.ModelAdmin):
 
     days_since_update.short_description = '未更新天数'  # 设置表头名称
 
+# 定义导出SalesUser的数据资源
+  
 
-# 注册Customer模型到管理后台
-admin.site.register(SalesUser, SaleUserAdmin)  # 注册SalesUser模型
-admin.site.register(Customer, CustomerAdmin)  # 注册Customer模型
+
 
 
 # 作用：
@@ -80,3 +101,10 @@ admin.site.register(Customer, CustomerAdmin)  # 注册Customer模型
 # 1. `SaleUserAdmin` 自定义了对SalesUser模型的管理功能，允许管理员管理用户的角色、权限等。
 # 2. `CustomerAdmin` 允许管理员在后台管理中修改 `created_by` 和 `modified_by` 字段，并且可以添加、过滤和搜索客户信息。
 # 3. `created_by_display` 是一个自定义方法，用于友好地展示 `created_by` 字段。
+
+
+
+
+# 注册Customer模型到管理后台
+admin.site.register(SalesUser, SaleUserAdmin)  # 注册SalesUser模型
+admin.site.register(Customer, CustomerAdmin)

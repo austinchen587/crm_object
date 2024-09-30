@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -41,6 +42,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',  # 添加这个来启用Token认证
     'sales',   # 启用自定义的sales应用
     'corsheaders',  # 添加corsheaders应用
+    'import_export',
 ]
 
 
@@ -74,7 +76,7 @@ ROOT_URLCONF = 'crm_backend.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [],  # 添加自定义模板路径
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -147,6 +149,7 @@ LANGUAGE_CODE = 'zh-hans'  # 设置为简体中文
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # 将静态文件收集到 staticfiles 目录
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
