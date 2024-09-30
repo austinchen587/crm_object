@@ -42,6 +42,10 @@ class SalesUser(AbstractUser):
     
     def __str__(self):
         return self.username
+    
+    class Meta:
+        verbose_name = '销售用户'
+        verbose_name_plural = '销售用户列表'
 # 作用说明：
 # 该模型扩展了Django自带的用户模型，可以根据需求添加更多字段。
 # 后续可以通过权限系统实现管理员和普通用户的权限区分。

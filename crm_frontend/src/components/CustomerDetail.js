@@ -10,19 +10,17 @@ const CustomerDetail = ({ token, role: passedRole }) => {
     const [role, setRole] = useState(passedRole || localStorage.getItem('role') || '');  // 初始化 role
     const navigate = useNavigate(); // 用于页面跳转
 
+    // 发送请求获取客户数据
     useEffect(() => {
-        // 打印token和role的值
         console.log(`Token: ${token}, Role: ${role}`);
-
         if (token && id) {
-            // 确保 token 和 id 存在
             console.log("Token and ID are both valid. Sending request...");
             axios.get(`http://47.96.23.135:8000/customer-detail/${id}/`, {
                 headers: { Authorization: `Token ${token}` },
             })
             .then(response => {
                 console.log('Customer details fetched:', response.data);
-                setCustomer(response.data);  // 获取到客户详细信息
+                setCustomer(response.data);  // 设置 customer 数据
             })
             .catch(error => {
                 console.error('Error fetching customer details:', error);
@@ -37,6 +35,15 @@ const CustomerDetail = ({ token, role: passedRole }) => {
         }
     }, [token, id]);
 
+    // 监测 customer 状态的变化
+    useEffect(() => {
+        if (customer) {
+            console.log('Customer state after setting:', customer); // 检测 customer 的状态
+            console.log('education_display:', customer.education_display || 'No data');
+            console.log('major_category_display:', customer.major_category_display || 'No data');
+            console.log('status_display:', customer.status_display || 'No data');
+        }
+    }, [customer]);  // 每当 customer 状态更新时运行
 
     // 删除客户的函数，仅允许管理员或组长执行此操作
     const handleDelete = () => {
@@ -74,7 +81,6 @@ const CustomerDetail = ({ token, role: passedRole }) => {
         return <div>Customer not found</div>;
     }
 
-
     // 调试信息，检测 role 和 created_by 的值
     const currentUsername = localStorage.getItem('username'); // 从localStorage获取当前用户名
     console.log("currentRole:", role);
@@ -97,10 +103,10 @@ const CustomerDetail = ({ token, role: passedRole }) => {
           <p>电话: {customer.phone}</p>
           <p>微信号: {customer.wechat_id}</p>
           <p>地址: {customer.address}</p>
-          <p>学历: {customer.education}</p>
-          <p>专业类别: {customer.major_category}</p>
+          <p>学历: {customer.education_display}</p>  {/* 确保优先显示中文字段 */}
+          <p>专业类别: {customer.major_category_display}</p>  {/* 显示专业类别 */}
           <p>具体专业: {customer.major_detail}</p>
-          <p>客户状态: {customer.status}</p>
+          <p>客户状态: {customer.status_display}</p>  {/* 显示客户状态 */}
           <p>客户描述: {customer.description || '无'}</p> {/* 显示客户描述 */}
           <p>创建时间: {new Date(customer.created_at).toLocaleString()}</p>
           <p>最近修改时间: {customer.updated_at ? new Date(customer.updated_at).toLocaleString() : '未修改'}</p>

@@ -17,8 +17,8 @@ class SaleUserAdmin(UserAdmin):
     # 修改fieldsets来包含group_leader字段
     fieldsets = (
         (None, {'fields': ('username', 'password')}),
-        ('Personal info', {'fields': ('email',)}),
-        ('Permissions', {'fields': ('is_staff', 'is_active', 'role', 'group_leader')}),
+        ('个人信息', {'fields': ('email',)}),
+        ('权限设置', {'fields': ('is_staff', 'is_active', 'role', 'group_leader')}),
     )
 
     add_fieldsets = (
@@ -35,7 +35,7 @@ class SaleUserAdmin(UserAdmin):
     def save_model(self,request,obj,form,change):
         if form.is_valid():
             obj.save()
-            self.message_user(request, f"User {obj.username} assigned to group leader {obj.group_leader}")
+            self.message_user(request, f"用户 {obj.username} 已分配给组长 {obj.group_leader}")
         super().save_model(request,obj,form,change)
 
 
@@ -57,6 +57,16 @@ class CustomerAdmin(admin.ModelAdmin):
         return '未指定'
     
     create_by_display.short_description = '创建人' # 自定义表头名称
+
+        # 计算客户上次更新到现在的天数
+    def days_since_update(self, obj):
+        if obj.updated_at:
+            from datetime import datetime
+            delta = datetime.now().date() - obj.updated_at.date()
+            return f"{delta.days} 天"
+        return '未修改'
+
+    days_since_update.short_description = '未更新天数'  # 设置表头名称
 
 
 # 注册Customer模型到管理后台

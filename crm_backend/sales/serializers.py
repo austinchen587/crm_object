@@ -11,6 +11,10 @@ class CustomerSerializer(serializers.ModelSerializer):
     updated_by = serializers.SlugRelatedField(slug_field='username', read_only=True) # 只读字段，显示最后修改者的用户名
     description = serializers.CharField(required=False, allow_blank=True)
 
+    # 额外添加显示中文的字段
+    education_display = serializers.CharField(source='get_education_display', read_only=True)
+    major_category_display = serializers.CharField(source='get_major_category_display', read_only=True)
+    status_display = serializers.CharField(source='get_status_display', read_only=True)
     
     # 格式化日期字段，只显示年月日
     #created_at = serializers.DateField(format="%Y-%m-%d",read_only=True)
@@ -23,7 +27,8 @@ class CustomerSerializer(serializers.ModelSerializer):
         model = Customer # 绑定到Customer模型
         fields = ['id', 'name', 'phone', 'wechat_id', 'address', 'education', 
                   'major_category', 'major_detail', 'status', 'created_by', 'updated_by', 
-                  'created_at', 'updated_at', 'description']
+                  'created_at', 'updated_at', 'description',
+            'education_display', 'major_category_display', 'status_display']
         #fields = '__all__'  # 序列化所有字段
 
 
@@ -33,6 +38,16 @@ class CustomerSerializer(serializers.ModelSerializer):
     
     def get_updated_at(self, obj):
         return obj.updated_at.date() if obj.updated_at else None
+    
+    # 自定义方法获取choices的显示值（中文）
+    def get_education_display(self, obj):
+        return obj.get_education_display()
+
+    def get_major_category_display(self, obj):
+        return obj.get_major_category_display()
+
+    def get_status_display(self, obj):
+        return obj.get_status_display()
 
 
 
