@@ -12,9 +12,9 @@ class CustomerSerializer(serializers.ModelSerializer):
     description = serializers.CharField(required=False, allow_blank=True)
 
     # 额外添加显示中文的字段
-    education_display = serializers.CharField(source='get_education_display', read_only=True)
-    major_category_display = serializers.CharField(source='get_major_category_display', read_only=True)
-    status_display = serializers.CharField(source='get_status_display', read_only=True)
+    education_display = serializers.SerializerMethodField()
+    major_category_display = serializers.SerializerMethodField()
+    status_display = serializers.SerializerMethodField()
     
     # 格式化日期字段，只显示年月日
     #created_at = serializers.DateField(format="%Y-%m-%d",read_only=True)

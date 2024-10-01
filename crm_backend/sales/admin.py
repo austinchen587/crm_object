@@ -63,8 +63,8 @@ class CustomerResource(resources.ModelResource):
 # 自定义Customer的Admin管理界面
 class CustomerAdmin(ImportExportModelAdmin):    # 继承 ImportExportModelAdmin
     resource_class = CustomerResource  # 绑定资源类
-    list_display = ('name', 'phone', 'created_by', 'updated_by', 'created_at', 'updated_at') # 定义显示的字段
-    list_filter = ('created_by', 'updated_by', 'created_at')  # 添加过滤器
+    list_display = ('name', 'created_by', 'phone', 'education', 'major_category', 'created_at','days_since_update') # 定义显示的字段
+    list_filter = ('created_by','created_at', 'education', 'major_category')  # 添加过滤器
     search_fields = ('name', 'phone') # 添加搜索功能
     ordering = ('created_at',)  # 按创建时间排序
 

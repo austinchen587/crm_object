@@ -19,15 +19,46 @@ const CustomerList = ({ token, customerUpdated }) => {
     console.log("当前客户列表:", allCustomers);
 
     if (startDate && endDate) {
+      const start = new Date(startDate);
+      const end = new Date(endDate);
+
+      // 如果开始日期晚于结束日期，设置错误信息并返回空数组
+      if (start > end) {
+        setDateError('开始时间不能晚于截止日期');
+        return [];
+      } else {
+        setDateError('');
+      }
+
+      // 将结束日期设为当天的23:59:59，以包含结束日期整天
+      end.setHours(23,59,59,999);
+
       const filteredCustomers = allCustomers.filter(customer => {
-        const createdAt = new Date(customer.created_at).getTime();
-        const start = new Date(startDate).getTime();
-        const end = new Date(endDate).getTime();
+        const createdAt = new Date(customer.created_at);
         return createdAt >= start && createdAt <= end;
       });
       return filteredCustomers;
+    } else if (startDate) {
+      const start = new Date(startDate);
+      const filteredCustomers = allCustomers.filter(customer => {
+        const createdAt = new Date(customer.created_at);
+        return createdAt >= start;
+      });
+      setDateError('');
+      return filteredCustomers;
+    } else if (endDate) {
+      const end = new Date(endDate);
+      end.setHours(23,59,59,999);
+      const filteredCustomers = allCustomers.filter(customer => {
+        const createdAt = new Date(customer.created_at);
+        return createdAt <= end;
+      });
+      setDateError('');
+      return filteredCustomers;
+    } else {
+      setDateError('');
+      return allCustomers;
     }
-    return allCustomers;
   };
 
   // 计算未更新天数的函数

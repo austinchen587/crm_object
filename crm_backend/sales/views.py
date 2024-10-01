@@ -154,6 +154,7 @@ class CustomerDetailView(generics.RetrieveUpdateDestroyAPIView):
 
     def get(self, request, *args, **kwargs):
         print(f"Fetching customer with ID: {kwargs['pk']}")
+        print("Received data:", request.data)
         return super().get(request, *args, **kwargs)
 
 

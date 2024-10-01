@@ -20,7 +20,8 @@ const CustomerDetail = ({ token, role: passedRole }) => {
             })
             .then(response => {
                 console.log('Customer details fetched:', response.data);
-                setCustomer(response.data);  // 设置 customer 数据
+                const customerData = Object.freeze({ ...response.data }); // 创建数据的浅拷贝并冻结
+                setCustomer(customerData);  // 设置 customer 数据
             })
             .catch(error => {
                 console.error('Error fetching customer details:', error);
@@ -34,42 +35,6 @@ const CustomerDetail = ({ token, role: passedRole }) => {
             setLoading(false);  // 没有token时，直接结束加载状态
         }
     }, [token, id]);
-
-    // 监测 customer 状态的变化
-    useEffect(() => {
-        if (customer) {
-            console.log('Customer state after setting:', customer); // 检测 customer 的状态
-            console.log('education_display:', customer.education_display || 'No data');
-            console.log('major_category_display:', customer.major_category_display || 'No data');
-            console.log('status_display:', customer.status_display || 'No data');
-        }
-    }, [customer]);  // 每当 customer 状态更新时运行
-
-    // 删除客户的函数，仅允许管理员或组长执行此操作
-    const handleDelete = () => {
-        if (token && id && (role === 'admin' || role === 'group_leader')) {
-            if(role==='group_leader' && customer.created_by_group !== role) {
-                setErrorMessage('组长只能删除本组的客户');
-                return;
-            }
-            
-            console.log(`Deleting customer ${id} as ${role}`);
-            axios.delete(`http://47.96.23.135:8000/customer-detail/${id}/`, {
-                headers: { Authorization: `Token ${token}` },
-            })
-            .then(() => {
-                console.log('Customer deleted successfully');
-                navigate('/customers');  // 删除成功后跳转回客户列表
-            })
-            .catch(error => {
-                console.error('Error deleting customer:', error);
-                setErrorMessage('Failed to delete customer');
-            });
-        } else {
-            console.log('User does not have permission to delete this customer.');
-            setErrorMessage('You do not have permission to delete this customer');
-        }
-    };
 
     // 检查loading状态
     if (loading) {
@@ -95,6 +60,9 @@ const CustomerDetail = ({ token, role: passedRole }) => {
     const canEdit = role === 'admin' || role === 'group_leader' || createdByUsername === currentUsername;
     const canDelete = role === 'admin' || (role === 'group_leader' && customer.created_by?.group_leader === role);
 
+    // 在渲染之前添加调试日志
+    console.log("Before rendering, customer.status_display:", customer.status_display);
+
     return (
         <div>
           <h2>客户详细信息</h2>
@@ -103,10 +71,10 @@ const CustomerDetail = ({ token, role: passedRole }) => {
           <p>电话: {customer.phone}</p>
           <p>微信号: {customer.wechat_id}</p>
           <p>地址: {customer.address}</p>
-          <p>学历: {customer.education_display}</p>  {/* 确保优先显示中文字段 */}
-          <p>专业类别: {customer.major_category_display}</p>  {/* 显示专业类别 */}
+          <p>学历: {customer.education_display}</p>  {/* 显示中文的学历 */}
+          <p>专业类别: {customer.major_category_display}</p>  {/* 显示中文的专业类别 */}
           <p>具体专业: {customer.major_detail}</p>
-          <p>客户状态: {customer.status_display}</p>  {/* 显示客户状态 */}
+          <p>客户状态: {customer.status_display}</p>  {/* 显示中文的客户状态 */}
           <p>客户描述: {customer.description || '无'}</p> {/* 显示客户描述 */}
           <p>创建时间: {new Date(customer.created_at).toLocaleString()}</p>
           <p>最近修改时间: {customer.updated_at ? new Date(customer.updated_at).toLocaleString() : '未修改'}</p>

@@ -6417,3 +6417,1386 @@ INFO 2024-09-30 23:26:44,008 basehttp "GET /admin/sales/customer/4/change/ HTTP/
 INFO 2024-09-30 23:26:44,008 basehttp "GET /admin/sales/customer/4/change/ HTTP/1.1" 200 17745
 INFO 2024-09-30 23:26:44,077 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
 INFO 2024-09-30 23:26:44,077 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-09-30 23:34:49,877 basehttp "OPTIONS /customer-detail/5/ HTTP/1.1" 200 0
+INFO 2024-09-30 23:34:49,877 basehttp "OPTIONS /customer-detail/5/ HTTP/1.1" 200 0
+INFO 2024-09-30 23:34:49,953 permissions Checking permissions for user: austin, role: admin
+INFO 2024-09-30 23:34:49,954 permissions User austin is superuser, granting all permissions.
+INFO 2024-09-30 23:34:49,957 basehttp "GET /customer-detail/5/ HTTP/1.1" 200 384
+INFO 2024-09-30 23:34:49,957 basehttp "GET /customer-detail/5/ HTTP/1.1" 200 384
+INFO 2024-09-30 23:35:11,169 views Fetching customer list for user: austin, role: admin
+INFO 2024-09-30 23:35:11,169 views Superuser austin retrieving all customers
+INFO 2024-09-30 23:35:11,382 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-09-30 23:35:11,382 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-09-30 23:35:16,370 basehttp "OPTIONS /customer-detail/174/ HTTP/1.1" 200 0
+INFO 2024-09-30 23:35:16,370 basehttp "OPTIONS /customer-detail/174/ HTTP/1.1" 200 0
+INFO 2024-09-30 23:35:16,444 permissions Checking permissions for user: austin, role: admin
+INFO 2024-09-30 23:35:16,444 permissions User austin is superuser, granting all permissions.
+INFO 2024-09-30 23:35:16,447 basehttp "GET /customer-detail/174/ HTTP/1.1" 200 451
+INFO 2024-09-30 23:35:16,447 basehttp "GET /customer-detail/174/ HTTP/1.1" 200 451
+INFO 2024-09-30 23:58:06,223 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 67792
+INFO 2024-09-30 23:58:06,223 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 67792
+INFO 2024-10-01 00:02:56,470 autoreload /root/crm_object/crm_backend/sales/admin.py changed, reloading.
+INFO 2024-10-01 00:02:56,470 autoreload /root/crm_object/crm_backend/sales/admin.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 30, 2024 - 23:23:57
+Django version 5.1.1, using settings 'crm_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Fetching customer with ID: 5
+Fetching customer with ID: 174
+INFO 2024-10-01 00:02:56,915 autoreload Watching for file changes with StatReloader
+INFO 2024-10-01 00:02:56,915 autoreload Watching for file changes with StatReloader
+INFO 2024-10-01 00:03:00,333 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69045
+INFO 2024-10-01 00:03:00,333 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69045
+INFO 2024-10-01 00:03:00,441 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 00:03:00,441 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 00:05:28,513 autoreload /root/crm_object/crm_backend/sales/admin.py changed, reloading.
+INFO 2024-10-01 00:05:28,513 autoreload /root/crm_object/crm_backend/sales/admin.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 01, 2024 - 00:02:57
+Django version 5.1.1, using settings 'crm_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+INFO 2024-10-01 00:05:28,938 autoreload Watching for file changes with StatReloader
+INFO 2024-10-01 00:05:28,938 autoreload Watching for file changes with StatReloader
+INFO 2024-10-01 00:05:32,228 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69045
+INFO 2024-10-01 00:05:32,228 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69045
+INFO 2024-10-01 00:05:32,347 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 00:05:32,347 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 00:07:39,290 autoreload /root/crm_object/crm_backend/sales/models.py changed, reloading.
+INFO 2024-10-01 00:07:39,290 autoreload /root/crm_object/crm_backend/sales/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 01, 2024 - 00:05:29
+Django version 5.1.1, using settings 'crm_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+INFO 2024-10-01 00:07:39,719 autoreload Watching for file changes with StatReloader
+INFO 2024-10-01 00:07:39,719 autoreload Watching for file changes with StatReloader
+INFO 2024-10-01 00:07:53,319 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 68531
+INFO 2024-10-01 00:07:53,319 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 68531
+INFO 2024-10-01 00:07:53,509 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 00:07:53,509 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 00:08:13,664 autoreload /root/crm_object/crm_backend/sales/models.py changed, reloading.
+INFO 2024-10-01 00:08:13,664 autoreload /root/crm_object/crm_backend/sales/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 01, 2024 - 00:07:39
+Django version 5.1.1, using settings 'crm_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+INFO 2024-10-01 00:08:14,094 autoreload Watching for file changes with StatReloader
+INFO 2024-10-01 00:08:14,094 autoreload Watching for file changes with StatReloader
+INFO 2024-10-01 00:08:16,963 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69045
+INFO 2024-10-01 00:08:16,963 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69045
+INFO 2024-10-01 00:08:17,167 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 00:08:17,167 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 00:08:29,953 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 00:08:29,953 views Superuser austin retrieving all customers
+INFO 2024-10-01 00:08:30,161 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 00:08:30,161 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 00:08:37,500 permissions Checking permissions for user: austin, role: admin
+INFO 2024-10-01 00:08:37,500 permissions User austin is superuser, granting all permissions.
+INFO 2024-10-01 00:08:37,503 basehttp "GET /customer-detail/2/ HTTP/1.1" 200 415
+INFO 2024-10-01 00:08:37,503 basehttp "GET /customer-detail/2/ HTTP/1.1" 200 415
+INFO 2024-10-01 00:09:13,936 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 00:09:13,936 views Superuser austin retrieving all customers
+INFO 2024-10-01 00:09:14,135 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 00:09:14,135 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 00:09:22,042 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 00:09:22,042 views Superuser austin retrieving all customers
+INFO 2024-10-01 00:09:22,242 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 00:09:22,242 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 00:09:26,343 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 00:09:26,343 views Superuser austin retrieving all customers
+INFO 2024-10-01 00:09:26,595 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 00:09:26,595 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 00:09:33,920 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 00:09:33,920 views Superuser austin retrieving all customers
+INFO 2024-10-01 00:09:34,124 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 00:09:34,124 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 00:09:38,700 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 00:09:38,700 views Superuser austin retrieving all customers
+INFO 2024-10-01 00:09:38,903 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 00:09:38,903 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 00:09:41,270 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 00:09:41,270 views Superuser austin retrieving all customers
+INFO 2024-10-01 00:09:41,469 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 00:09:41,469 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 00:09:44,570 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 00:09:44,570 views Superuser austin retrieving all customers
+INFO 2024-10-01 00:09:44,768 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 00:09:44,768 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 00:10:55,410 basehttp "OPTIONS /customer-detail/37/ HTTP/1.1" 200 0
+INFO 2024-10-01 00:10:55,410 basehttp "OPTIONS /customer-detail/37/ HTTP/1.1" 200 0
+INFO 2024-10-01 00:10:55,489 permissions Checking permissions for user: austin, role: admin
+INFO 2024-10-01 00:10:55,490 permissions User austin is superuser, granting all permissions.
+INFO 2024-10-01 00:10:55,493 basehttp "GET /customer-detail/37/ HTTP/1.1" 200 409
+INFO 2024-10-01 00:10:55,493 basehttp "GET /customer-detail/37/ HTTP/1.1" 200 409
+INFO 2024-10-01 00:10:58,892 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 00:10:58,892 views Superuser austin retrieving all customers
+INFO 2024-10-01 00:10:59,101 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 00:10:59,101 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 00:11:27,666 basehttp "OPTIONS /customer-detail/4/ HTTP/1.1" 200 0
+INFO 2024-10-01 00:11:27,666 basehttp "OPTIONS /customer-detail/4/ HTTP/1.1" 200 0
+INFO 2024-10-01 00:11:27,747 permissions Checking permissions for user: austin, role: admin
+INFO 2024-10-01 00:11:27,747 permissions User austin is superuser, granting all permissions.
+INFO 2024-10-01 00:11:27,751 basehttp "GET /customer-detail/4/ HTTP/1.1" 200 420
+INFO 2024-10-01 00:11:27,751 basehttp "GET /customer-detail/4/ HTTP/1.1" 200 420
+WARNING 2024-10-01 00:56:19,702 log Not Found: /example.com:443
+WARNING 2024-10-01 00:56:19,702 log Not Found: /example.com:443
+WARNING 2024-10-01 00:56:19,702 basehttp "CONNECT example.com:443 HTTP/1.1" 404 1850
+WARNING 2024-10-01 00:56:19,702 basehttp "CONNECT example.com:443 HTTP/1.1" 404 1850
+WARNING 2024-10-01 00:56:56,868 log Not Found: /http:/110.242.68.4/
+WARNING 2024-10-01 00:56:56,868 log Not Found: /http:/110.242.68.4/
+WARNING 2024-10-01 00:56:56,869 basehttp "HEAD http://110.242.68.4/ HTTP/1.1" 404 0
+WARNING 2024-10-01 00:56:56,869 basehttp "HEAD http://110.242.68.4/ HTTP/1.1" 404 0
+WARNING 2024-10-01 02:03:09,154 log Not Found: /
+WARNING 2024-10-01 02:03:09,154 log Not Found: /
+WARNING 2024-10-01 02:03:09,154 basehttp "GET / HTTP/1.1" 404 3497
+WARNING 2024-10-01 02:03:09,154 basehttp "GET / HTTP/1.1" 404 3497
+WARNING 2024-10-01 02:04:29,400 log Not Found: /
+WARNING 2024-10-01 02:04:29,400 log Not Found: /
+WARNING 2024-10-01 02:04:29,401 basehttp "GET / HTTP/1.0" 404 3508
+WARNING 2024-10-01 02:04:29,401 basehttp "GET / HTTP/1.0" 404 3508
+WARNING 2024-10-01 03:24:25,874 log Not Found: /http:/passport.baidu.com/
+WARNING 2024-10-01 03:24:25,874 log Not Found: /http:/passport.baidu.com/
+WARNING 2024-10-01 03:24:25,874 basehttp "GET http://passport.baidu.com/ HTTP/1.1" 404 1884
+WARNING 2024-10-01 03:24:25,874 basehttp "GET http://passport.baidu.com/ HTTP/1.1" 404 1884
+INFO 2024-10-01 03:24:45,998 basehttp code 400, message Bad request syntax ('\x04\x01\x00Pg)§ê\x00')
+INFO 2024-10-01 03:24:45,998 basehttp code 400, message Bad request syntax ('\x04\x01\x00Pg)§ê\x00')
+WARNING 2024-10-01 03:24:45,998 basehttp " Pg)§ê " 400 -
+WARNING 2024-10-01 03:24:45,998 basehttp " Pg)§ê " 400 -
+INFO 2024-10-01 03:25:05,706 basehttp code 400, message Bad request syntax ('\x05\x01\x00')
+INFO 2024-10-01 03:25:05,706 basehttp code 400, message Bad request syntax ('\x05\x01\x00')
+WARNING 2024-10-01 03:25:05,706 basehttp " " 400 -
+WARNING 2024-10-01 03:25:05,706 basehttp " " 400 -
+WARNING 2024-10-01 04:53:59,395 log Not Found: /example.com:443
+WARNING 2024-10-01 04:53:59,395 log Not Found: /example.com:443
+WARNING 2024-10-01 04:53:59,395 basehttp "CONNECT example.com:443 HTTP/1.1" 404 1850
+WARNING 2024-10-01 04:53:59,395 basehttp "CONNECT example.com:443 HTTP/1.1" 404 1850
+WARNING 2024-10-01 04:56:55,752 log Not Found: /
+WARNING 2024-10-01 04:56:55,752 log Not Found: /
+WARNING 2024-10-01 04:56:55,752 basehttp "GET / HTTP/1.1" 404 3497
+WARNING 2024-10-01 04:56:55,752 basehttp "GET / HTTP/1.1" 404 3497
+INFO 2024-10-01 05:13:25,795 basehttp code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+INFO 2024-10-01 05:13:25,795 basehttp code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+WARNING 2024-10-01 05:13:25,796 basehttp "  /*à     Cookie: mstshash=Administr" 400 -
+WARNING 2024-10-01 05:13:25,796 basehttp "  /*à     Cookie: mstshash=Administr" 400 -
+INFO 2024-10-01 05:27:29,454 basehttp code 400, message Bad request version ('À\x13À')
+INFO 2024-10-01 05:27:29,454 basehttp code 400, message Bad request version ('À\x13À')
+ERROR 2024-10-01 05:27:29,454 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-10-01 05:27:29,454 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2024-10-01 05:27:29,882 basehttp code 400, message Bad request version ('À(À$À\x14À')
+INFO 2024-10-01 05:27:29,882 basehttp code 400, message Bad request version ('À(À$À\x14À')
+ERROR 2024-10-01 05:27:29,882 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-10-01 05:27:29,882 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2024-10-01 06:25:29,188 basehttp code 400, message Bad HTTP/0.9 request type ('\\x01\\x00\\x00\\x00')
+INFO 2024-10-01 06:25:29,188 basehttp code 400, message Bad HTTP/0.9 request type ('\\x01\\x00\\x00\\x00')
+WARNING 2024-10-01 06:25:29,188 basehttp "\x01\x00\x00\x00 \xbf\x02\x00\x88\x13\x00\x00\x87\x00\x00\x00NIMABIJIAN\x04\x03\x00\x00{\x99Caig\x9c\x03\xc7eB\xc5\t\xc1\x18a\x11\x1a\x91\x1f\x02\tcof\x91\xc0\x80sJ5\xd2\x80\xe6\x9a~\xb9\xc7\x83^\x96\xeeN\x16\x96\x96&\xe6\x03\xea\xbc\x81\x02=\xac\x10\xfa?7\x03\xc3\xdf\xf7\xe4\x98`p\xe6\x8d\xc1\xa9\x8d\xc6\x06\xdb\xaf\x91\xe7\x82s\xf7\x14H\xd4\xe1W\x9a\x93C\x9e]\xa4\x01#\x03#\x03]\x03c]CC\x05C\x03+S\x03b\xf4\x00\x00/\x9e\x16E" 400 -
+WARNING 2024-10-01 06:25:29,188 basehttp "\x01\x00\x00\x00 \xbf\x02\x00\x88\x13\x00\x00\x87\x00\x00\x00NIMABIJIAN\x04\x03\x00\x00{\x99Caig\x9c\x03\xc7eB\xc5\t\xc1\x18a\x11\x1a\x91\x1f\x02\tcof\x91\xc0\x80sJ5\xd2\x80\xe6\x9a~\xb9\xc7\x83^\x96\xeeN\x16\x96\x96&\xe6\x03\xea\xbc\x81\x02=\xac\x10\xfa?7\x03\xc3\xdf\xf7\xe4\x98`p\xe6\x8d\xc1\xa9\x8d\xc6\x06\xdb\xaf\x91\xe7\x82s\xf7\x14H\xd4\xe1W\x9a\x93C\x9e]\xa4\x01#\x03#\x03]\x03c]CC\x05C\x03+S\x03b\xf4\x00\x00/\x9e\x16E" 400 -
+WARNING 2024-10-01 06:25:29,501 log Not Found: /favicon.ico
+WARNING 2024-10-01 06:25:29,501 log Not Found: /favicon.ico
+WARNING 2024-10-01 06:25:29,501 basehttp "GET /favicon.ico HTTP/1.1" 404 3548
+WARNING 2024-10-01 06:25:29,501 basehttp "GET /favicon.ico HTTP/1.1" 404 3548
+WARNING 2024-10-01 06:25:29,621 log Not Found: /robots.txt
+WARNING 2024-10-01 06:25:29,621 log Not Found: /robots.txt
+WARNING 2024-10-01 06:25:29,622 basehttp "GET /robots.txt HTTP/1.1" 404 3545
+WARNING 2024-10-01 06:25:29,622 basehttp "GET /robots.txt HTTP/1.1" 404 3545
+WARNING 2024-10-01 06:25:29,994 log Not Found: /.well-known/security.txt
+WARNING 2024-10-01 06:25:29,994 log Not Found: /.well-known/security.txt
+WARNING 2024-10-01 06:25:29,994 basehttp "GET /.well-known/security.txt HTTP/1.1" 404 3587
+WARNING 2024-10-01 06:25:29,994 basehttp "GET /.well-known/security.txt HTTP/1.1" 404 3587
+INFO 2024-10-01 06:25:43,289 basehttp code 400, message Bad request version ('À\x14À')
+INFO 2024-10-01 06:25:43,289 basehttp code 400, message Bad request version ('À\x14À')
+ERROR 2024-10-01 06:25:43,290 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-10-01 06:25:43,290 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2024-10-01 07:07:23,025 basehttp code 400, message Bad request version ('À\x13À')
+INFO 2024-10-01 07:07:23,025 basehttp code 400, message Bad request version ('À\x13À')
+ERROR 2024-10-01 07:07:23,025 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-10-01 07:07:23,025 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+WARNING 2024-10-01 07:07:24,943 log Not Found: /
+WARNING 2024-10-01 07:07:24,943 log Not Found: /
+WARNING 2024-10-01 07:07:24,943 basehttp "GET / HTTP/1.1" 404 3497
+WARNING 2024-10-01 07:07:24,943 basehttp "GET / HTTP/1.1" 404 3497
+INFO 2024-10-01 07:07:25,079 basehttp code 400, message Bad request version ('À\x13À')
+INFO 2024-10-01 07:07:25,079 basehttp code 400, message Bad request version ('À\x13À')
+ERROR 2024-10-01 07:07:25,079 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-10-01 07:07:25,079 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2024-10-01 07:07:25,543 basehttp code 400, message Bad request version ('À\x13À')
+INFO 2024-10-01 07:07:25,543 basehttp code 400, message Bad request version ('À\x13À')
+ERROR 2024-10-01 07:07:25,543 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-10-01 07:07:25,543 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2024-10-01 07:07:25,951 basehttp code 400, message Bad request version ('À\x13À')
+INFO 2024-10-01 07:07:25,951 basehttp code 400, message Bad request version ('À\x13À')
+ERROR 2024-10-01 07:07:25,951 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-10-01 07:07:25,951 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2024-10-01 07:07:25,994 basehttp code 400, message Bad request version ('À\x13À')
+INFO 2024-10-01 07:07:25,994 basehttp code 400, message Bad request version ('À\x13À')
+ERROR 2024-10-01 07:07:25,994 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-10-01 07:07:25,994 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2024-10-01 07:07:26,378 basehttp code 400, message Bad request version ('\x8cÔA8\x1bØ³\x11úÛqg³')
+INFO 2024-10-01 07:07:26,378 basehttp code 400, message Bad request version ('\x8cÔA8\x1bØ³\x11úÛqg³')
+ERROR 2024-10-01 07:07:26,378 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-10-01 07:07:26,378 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2024-10-01 07:07:26,452 basehttp code 400, message Bad request version ('À\x13À')
+INFO 2024-10-01 07:07:26,452 basehttp code 400, message Bad request version ('À\x13À')
+ERROR 2024-10-01 07:07:26,452 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-10-01 07:07:26,452 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2024-10-01 07:44:06,638 basehttp code 400, message Bad request syntax ('MGLNDD_47.96.23.135_8000')
+INFO 2024-10-01 07:44:06,638 basehttp code 400, message Bad request syntax ('MGLNDD_47.96.23.135_8000')
+WARNING 2024-10-01 07:44:06,638 basehttp "MGLNDD_47.96.23.135_8000" 400 -
+WARNING 2024-10-01 07:44:06,638 basehttp "MGLNDD_47.96.23.135_8000" 400 -
+WARNING 2024-10-01 08:09:25,674 log Not Found: /
+WARNING 2024-10-01 08:09:25,674 log Not Found: /
+WARNING 2024-10-01 08:09:25,675 basehttp "GET / HTTP/1.1" 404 3497
+WARNING 2024-10-01 08:09:25,675 basehttp "GET / HTTP/1.1" 404 3497
+WARNING 2024-10-01 08:09:34,147 log Not Found: /favicon.ico
+WARNING 2024-10-01 08:09:34,147 log Not Found: /favicon.ico
+WARNING 2024-10-01 08:09:34,147 basehttp "GET /favicon.ico HTTP/1.1" 404 3548
+WARNING 2024-10-01 08:09:34,147 basehttp "GET /favicon.ico HTTP/1.1" 404 3548
+WARNING 2024-10-01 08:09:39,131 log Not Found: /http:/api.ipify.org/
+WARNING 2024-10-01 08:09:39,131 log Not Found: /http:/api.ipify.org/
+WARNING 2024-10-01 08:09:39,131 basehttp "GET http://api.ipify.org/?format=json HTTP/1.1" 404 1873
+WARNING 2024-10-01 08:09:39,131 basehttp "GET http://api.ipify.org/?format=json HTTP/1.1" 404 1873
+WARNING 2024-10-01 08:09:42,236 log Not Found: /www.shadowserver.org:443
+WARNING 2024-10-01 08:09:42,236 log Not Found: /www.shadowserver.org:443
+WARNING 2024-10-01 08:09:42,236 basehttp "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 1882
+WARNING 2024-10-01 08:09:42,236 basehttp "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 1882
+WARNING 2024-10-01 08:49:16,671 log Not Found: /example.com:443
+WARNING 2024-10-01 08:49:16,671 log Not Found: /example.com:443
+WARNING 2024-10-01 08:49:16,672 basehttp "CONNECT example.com:443 HTTP/1.1" 404 1850
+WARNING 2024-10-01 08:49:16,672 basehttp "CONNECT example.com:443 HTTP/1.1" 404 1850
+INFO 2024-10-01 08:58:11,886 basehttp "OPTIONS /customers/ HTTP/1.1" 200 0
+INFO 2024-10-01 08:58:11,886 basehttp "OPTIONS /customers/ HTTP/1.1" 200 0
+INFO 2024-10-01 08:58:11,966 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 08:58:11,966 views Superuser austin retrieving all customers
+INFO 2024-10-01 08:58:12,178 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 08:58:12,178 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 08:58:15,603 basehttp "OPTIONS /token-verify/ HTTP/1.1" 200 0
+INFO 2024-10-01 08:58:15,603 basehttp "OPTIONS /token-verify/ HTTP/1.1" 200 0
+INFO 2024-10-01 08:58:15,680 views Received token: Token 2d66f73388d5d37c3d7abddbb9af73331f34030f
+INFO 2024-10-01 08:58:15,682 views Token is valid for user: austin
+INFO 2024-10-01 08:58:15,683 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 08:58:15,683 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 08:58:15,764 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 08:58:15,765 views Superuser austin retrieving all customers
+INFO 2024-10-01 08:58:15,966 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 08:58:15,966 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 08:58:23,779 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 08:58:23,779 views Superuser austin retrieving all customers
+INFO 2024-10-01 08:58:23,977 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 08:58:23,977 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 08:58:27,788 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 08:58:27,788 views Superuser austin retrieving all customers
+INFO 2024-10-01 08:58:27,990 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 08:58:27,990 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 08:58:37,881 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 08:58:37,881 views Superuser austin retrieving all customers
+INFO 2024-10-01 08:58:38,085 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 08:58:38,085 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 08:59:59,303 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 08:59:59,303 views Superuser austin retrieving all customers
+INFO 2024-10-01 08:59:59,505 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 08:59:59,505 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 09:00:11,904 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 09:00:11,905 views Superuser austin retrieving all customers
+INFO 2024-10-01 09:00:12,107 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 09:00:12,107 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 09:00:15,402 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 09:00:15,402 views Superuser austin retrieving all customers
+INFO 2024-10-01 09:00:15,600 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 09:00:15,600 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 09:01:07,386 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 09:01:07,386 views Superuser austin retrieving all customers
+INFO 2024-10-01 09:01:07,588 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 09:01:07,588 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 09:01:14,451 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 09:01:14,452 views Superuser austin retrieving all customers
+INFO 2024-10-01 09:01:14,651 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 09:01:14,651 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 09:01:21,111 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 09:01:21,111 views Superuser austin retrieving all customers
+INFO 2024-10-01 09:01:21,310 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 09:01:21,310 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 09:01:24,374 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 09:01:24,374 views Superuser austin retrieving all customers
+INFO 2024-10-01 09:01:24,584 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 09:01:24,584 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 09:01:36,367 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 09:01:36,368 views Superuser austin retrieving all customers
+INFO 2024-10-01 09:01:36,567 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 09:01:36,567 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 09:01:47,924 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 09:01:47,924 views Superuser austin retrieving all customers
+INFO 2024-10-01 09:01:48,125 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 09:01:48,125 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 09:01:52,282 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 09:01:52,282 views Superuser austin retrieving all customers
+INFO 2024-10-01 09:01:52,484 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 09:01:52,484 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 09:03:33,023 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69043
+INFO 2024-10-01 09:03:33,023 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69043
+INFO 2024-10-01 09:03:33,085 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,085 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,105 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,105 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,107 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,107 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,108 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,108 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,110 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,110 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,110 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,110 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,200 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,200 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,213 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:03:33,213 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:03:33,214 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,214 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,216 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,216 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,217 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,217 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,218 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,218 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,264 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,264 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,290 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,290 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,303 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,303 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,306 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,306 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,393 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,393 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,415 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,415 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,421 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,421 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,421 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,421 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,422 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,422 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,427 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:33,427 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:03:45,449 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69043
+INFO 2024-10-01 09:03:45,449 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69043
+INFO 2024-10-01 09:03:45,514 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:03:45,514 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:03:55,592 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69043
+INFO 2024-10-01 09:03:55,592 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69043
+INFO 2024-10-01 09:03:55,700 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:03:55,700 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:04:14,313 basehttp "GET /admin/sales/customer/?o=4.6 HTTP/1.1" 200 72606
+INFO 2024-10-01 09:04:14,313 basehttp "GET /admin/sales/customer/?o=4.6 HTTP/1.1" 200 72606
+INFO 2024-10-01 09:04:14,374 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:04:14,374 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:04:15,905 basehttp "GET /admin/sales/customer/?o=-4.6 HTTP/1.1" 200 73035
+INFO 2024-10-01 09:04:15,905 basehttp "GET /admin/sales/customer/?o=-4.6 HTTP/1.1" 200 73035
+INFO 2024-10-01 09:04:15,965 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:04:15,965 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:05:15,334 basehttp "GET /admin/sales/customer/2/change/ HTTP/1.1" 200 17757
+INFO 2024-10-01 09:05:15,334 basehttp "GET /admin/sales/customer/2/change/ HTTP/1.1" 200 17757
+INFO 2024-10-01 09:05:15,397 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,397 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,417 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,417 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,424 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,424 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,426 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,426 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,427 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,427 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,438 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:05:15,438 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:05:15,448 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,448 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,473 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,473 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,487 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,487 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,487 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,487 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,494 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,494 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,495 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,495 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,501 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,501 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,526 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,526 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,547 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,547 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,550 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,550 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,552 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,552 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,605 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,605 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,615 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,615 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,625 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,625 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,626 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,626 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,628 basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,628 basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,629 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:15,629 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:26,036 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69045
+INFO 2024-10-01 09:05:26,036 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69045
+INFO 2024-10-01 09:05:45,633 basehttp "GET /admin/sales/customer/?o=-6 HTTP/1.1" 200 72293
+INFO 2024-10-01 09:05:45,633 basehttp "GET /admin/sales/customer/?o=-6 HTTP/1.1" 200 72293
+INFO 2024-10-01 09:05:45,694 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:45,694 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:45,694 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:45,694 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:45,717 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:05:45,717 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:05:45,759 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:45,759 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:46,889 basehttp "GET /admin/sales/customer/?o=6 HTTP/1.1" 200 72028
+INFO 2024-10-01 09:05:46,889 basehttp "GET /admin/sales/customer/?o=6 HTTP/1.1" 200 72028
+INFO 2024-10-01 09:05:47,074 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:05:47,074 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:05:57,459 basehttp "GET /admin/sales/customer/export/?o=-4.6 HTTP/1.1" 200 12925
+INFO 2024-10-01 09:05:57,459 basehttp "GET /admin/sales/customer/export/?o=-4.6 HTTP/1.1" 200 12925
+INFO 2024-10-01 09:05:57,499 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:57,499 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:57,512 basehttp "GET /static/import_export/export.css HTTP/1.1" 200 121
+INFO 2024-10-01 09:05:57,512 basehttp "GET /static/import_export/export.css HTTP/1.1" 200 121
+INFO 2024-10-01 09:05:57,513 basehttp "GET /static/import_export/export_selectable_fields.js HTTP/1.1" 200 1396
+INFO 2024-10-01 09:05:57,513 basehttp "GET /static/import_export/export_selectable_fields.js HTTP/1.1" 200 1396
+INFO 2024-10-01 09:05:57,524 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:05:57,524 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:05:57,597 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:05:57,597 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:06:11,826 basehttp "POST /admin/sales/customer/export/?o=-4.6 HTTP/1.1" 200 19653
+INFO 2024-10-01 09:06:11,826 basehttp "POST /admin/sales/customer/export/?o=-4.6 HTTP/1.1" 200 19653
+INFO 2024-10-01 09:06:36,116 basehttp "GET /admin/sales/customer/export/?o=6 HTTP/1.1" 200 12927
+INFO 2024-10-01 09:06:36,116 basehttp "GET /admin/sales/customer/export/?o=6 HTTP/1.1" 200 12927
+INFO 2024-10-01 09:06:36,172 basehttp "GET /static/import_export/export_selectable_fields.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:06:36,172 basehttp "GET /static/import_export/export_selectable_fields.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:06:36,175 basehttp "GET /static/import_export/export.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:06:36,175 basehttp "GET /static/import_export/export.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:06:36,195 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:06:36,195 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:06:43,195 basehttp "POST /admin/sales/customer/export/?o=6 HTTP/1.1" 200 19653
+INFO 2024-10-01 09:06:43,195 basehttp "POST /admin/sales/customer/export/?o=6 HTTP/1.1" 200 19653
+INFO 2024-10-01 09:08:11,684 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69045
+INFO 2024-10-01 09:08:11,684 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69045
+INFO 2024-10-01 09:08:11,761 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:08:11,761 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:17:33,491 basehttp "OPTIONS /token-verify/ HTTP/1.1" 200 0
+INFO 2024-10-01 09:17:33,491 basehttp "OPTIONS /token-verify/ HTTP/1.1" 200 0
+INFO 2024-10-01 09:17:33,565 views Received token: Token 661022a93952fad19ac47b944d3e044d513fec48
+INFO 2024-10-01 09:17:33,567 views Token is valid for user: 董婷婷
+INFO 2024-10-01 09:17:33,568 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 09:17:33,568 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 09:17:33,641 basehttp "OPTIONS /customers/ HTTP/1.1" 200 0
+INFO 2024-10-01 09:17:33,641 basehttp "OPTIONS /customers/ HTTP/1.1" 200 0
+INFO 2024-10-01 09:17:33,712 views Fetching customer list for user: 董婷婷, role: admin
+INFO 2024-10-01 09:17:33,712 views Superuser 董婷婷 retrieving all customers
+INFO 2024-10-01 09:17:33,922 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 09:17:33,922 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 09:17:36,357 basehttp "GET /admin/sales/salesuser/ HTTP/1.1" 200 27141
+INFO 2024-10-01 09:17:36,357 basehttp "GET /admin/sales/salesuser/ HTTP/1.1" 200 27141
+INFO 2024-10-01 09:17:36,526 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,526 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,555 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,555 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,555 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,555 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,590 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,590 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,662 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,662 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,666 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,666 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,689 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:17:36,689 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:17:36,710 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,710 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,741 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,741 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,742 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,742 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,795 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,795 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,806 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,806 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,807 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,807 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,890 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,890 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,890 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,890 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,891 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,891 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,916 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,916 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,957 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,957 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,969 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,969 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,984 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:36,984 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:37,061 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:37,061 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:37,061 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:37,061 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:37,312 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:37,312 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:37,313 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:17:37,313 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+WARNING 2024-10-01 09:17:37,389 log Not Found: /favicon.ico
+WARNING 2024-10-01 09:17:37,389 log Not Found: /favicon.ico
+WARNING 2024-10-01 09:17:37,389 basehttp "GET /favicon.ico HTTP/1.1" 404 3548
+WARNING 2024-10-01 09:17:37,389 basehttp "GET /favicon.ico HTTP/1.1" 404 3548
+INFO 2024-10-01 09:17:53,237 basehttp "GET /admin/sales/salesuser/ HTTP/1.1" 200 27141
+INFO 2024-10-01 09:17:53,237 basehttp "GET /admin/sales/salesuser/ HTTP/1.1" 200 27141
+INFO 2024-10-01 09:17:53,345 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:17:53,345 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:17:56,665 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69048
+INFO 2024-10-01 09:17:56,665 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69048
+INFO 2024-10-01 09:17:56,733 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:17:56,733 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:19:11,138 basehttp "GET /admin/sales/customer/? HTTP/1.1" 200 69048
+INFO 2024-10-01 09:19:11,138 basehttp "GET /admin/sales/customer/? HTTP/1.1" 200 69048
+INFO 2024-10-01 09:19:11,212 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:19:11,212 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:21:29,351 basehttp code 400, message Bad request syntax ('JDWP-Handshake')
+INFO 2024-10-01 09:21:29,351 basehttp code 400, message Bad request syntax ('JDWP-Handshake')
+WARNING 2024-10-01 09:21:29,352 basehttp "JDWP-Handshake" 400 -
+WARNING 2024-10-01 09:21:29,352 basehttp "JDWP-Handshake" 400 -
+INFO 2024-10-01 09:22:18,019 basehttp "GET /admin/ HTTP/1.1" 200 11163
+INFO 2024-10-01 09:22:18,019 basehttp "GET /admin/ HTTP/1.1" 200 11163
+INFO 2024-10-01 09:22:18,107 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:22:18,107 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2024-10-01 09:22:40,979 basehttp "OPTIONS /customer-detail/78/ HTTP/1.1" 200 0
+INFO 2024-10-01 09:22:40,979 basehttp "OPTIONS /customer-detail/78/ HTTP/1.1" 200 0
+INFO 2024-10-01 09:22:41,065 permissions Checking permissions for user: austin, role: admin
+INFO 2024-10-01 09:22:41,065 permissions User austin is superuser, granting all permissions.
+INFO 2024-10-01 09:22:41,068 basehttp "GET /customer-detail/78/ HTTP/1.1" 200 419
+INFO 2024-10-01 09:22:41,068 basehttp "GET /customer-detail/78/ HTTP/1.1" 200 419
+INFO 2024-10-01 09:25:39,302 views Received token: Token 2d66f73388d5d37c3d7abddbb9af73331f34030f
+INFO 2024-10-01 09:25:39,304 views Token is valid for user: austin
+INFO 2024-10-01 09:25:39,305 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 09:25:39,305 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 09:25:39,392 permissions Checking permissions for user: austin, role: admin
+INFO 2024-10-01 09:25:39,393 permissions User austin is superuser, granting all permissions.
+INFO 2024-10-01 09:25:39,396 basehttp "GET /customer-detail/78/ HTTP/1.1" 200 419
+INFO 2024-10-01 09:25:39,396 basehttp "GET /customer-detail/78/ HTTP/1.1" 200 419
+WARNING 2024-10-01 09:32:39,248 log Not Found: /
+WARNING 2024-10-01 09:32:39,248 log Not Found: /
+WARNING 2024-10-01 09:32:39,248 basehttp "GET / HTTP/1.1" 404 3497
+WARNING 2024-10-01 09:32:39,248 basehttp "GET / HTTP/1.1" 404 3497
+INFO 2024-10-01 09:36:03,214 basehttp "OPTIONS /token-verify/ HTTP/1.1" 200 0
+INFO 2024-10-01 09:36:03,214 basehttp "OPTIONS /token-verify/ HTTP/1.1" 200 0
+INFO 2024-10-01 09:36:03,687 views Received token: Token cb3198008b24da1705ee9dbf3fff931e950b2575
+INFO 2024-10-01 09:36:03,689 views Token is valid for user: lenzihui
+INFO 2024-10-01 09:36:03,689 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 09:36:03,689 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 09:42:01,336 views Received token: Token 2d66f73388d5d37c3d7abddbb9af73331f34030f
+INFO 2024-10-01 09:42:01,339 views Token is valid for user: austin
+INFO 2024-10-01 09:42:01,340 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 09:42:01,340 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 09:42:01,427 permissions Checking permissions for user: austin, role: admin
+INFO 2024-10-01 09:42:01,427 permissions User austin is superuser, granting all permissions.
+INFO 2024-10-01 09:42:01,430 basehttp "GET /customer-detail/78/ HTTP/1.1" 200 419
+INFO 2024-10-01 09:42:01,430 basehttp "GET /customer-detail/78/ HTTP/1.1" 200 419
+INFO 2024-10-01 09:47:19,607 basehttp "GET /admin/sales/salesuser/ HTTP/1.1" 200 27138
+INFO 2024-10-01 09:47:19,607 basehttp "GET /admin/sales/salesuser/ HTTP/1.1" 200 27138
+INFO 2024-10-01 09:47:19,683 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:47:19,683 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:47:19,705 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:47:19,705 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:47:19,732 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-10-01 09:47:19,732 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-10-01 09:47:19,737 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-10-01 09:47:19,737 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-10-01 09:47:19,844 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:47:19,844 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:47:19,856 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:47:19,856 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:47:19,858 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:47:19,858 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2024-10-01 09:57:07,115 basehttp "GET /admin/ HTTP/1.1" 200 11163
+INFO 2024-10-01 09:57:07,115 basehttp "GET /admin/ HTTP/1.1" 200 11163
+INFO 2024-10-01 09:57:08,246 basehttp "GET /admin/sales/salesuser/ HTTP/1.1" 200 27138
+INFO 2024-10-01 09:57:08,246 basehttp "GET /admin/sales/salesuser/ HTTP/1.1" 200 27138
+INFO 2024-10-01 09:57:08,353 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:57:08,353 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:57:10,408 basehttp "GET /admin/ HTTP/1.1" 200 11163
+INFO 2024-10-01 09:57:10,408 basehttp "GET /admin/ HTTP/1.1" 200 11163
+INFO 2024-10-01 09:57:11,527 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69045
+INFO 2024-10-01 09:57:11,527 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69045
+INFO 2024-10-01 09:57:11,684 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 09:57:11,684 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+WARNING 2024-10-01 09:58:16,584 log Not Found: /
+WARNING 2024-10-01 09:58:16,584 log Not Found: /
+WARNING 2024-10-01 09:58:16,585 basehttp "GET / HTTP/1.1" 404 3497
+WARNING 2024-10-01 09:58:16,585 basehttp "GET / HTTP/1.1" 404 3497
+INFO 2024-10-01 09:59:19,187 basehttp "OPTIONS /token-verify/ HTTP/1.1" 200 0
+INFO 2024-10-01 09:59:19,187 basehttp "OPTIONS /token-verify/ HTTP/1.1" 200 0
+INFO 2024-10-01 09:59:19,297 views Received token: Token e0f7e100adfec5b7d9b1282b871e5a66286c6c65
+INFO 2024-10-01 09:59:19,299 views Token is valid for user: 胡夏阳007
+INFO 2024-10-01 09:59:19,300 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 09:59:19,300 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 09:59:19,427 basehttp "OPTIONS /customers/ HTTP/1.1" 200 0
+INFO 2024-10-01 09:59:19,427 basehttp "OPTIONS /customers/ HTTP/1.1" 200 0
+INFO 2024-10-01 09:59:19,542 views Fetching customer list for user: 胡夏阳007, role: user
+INFO 2024-10-01 09:59:19,542 views Regular user 胡夏阳007 retrieving only their own customers
+INFO 2024-10-01 09:59:19,549 basehttp "GET /customers/ HTTP/1.1" 200 1261
+INFO 2024-10-01 09:59:19,549 basehttp "GET /customers/ HTTP/1.1" 200 1261
+INFO 2024-10-01 09:59:27,511 basehttp "OPTIONS /token-verify/ HTTP/1.1" 200 0
+INFO 2024-10-01 09:59:27,511 basehttp "OPTIONS /token-verify/ HTTP/1.1" 200 0
+INFO 2024-10-01 09:59:27,788 views Received token: Token 4ebbc0f48117c6227f44e0e536ec6c4f052a743f
+INFO 2024-10-01 09:59:27,790 views Token is valid for user: qinjiahao
+INFO 2024-10-01 09:59:27,791 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 09:59:27,791 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 09:59:28,112 basehttp "OPTIONS /customers/ HTTP/1.1" 200 0
+INFO 2024-10-01 09:59:28,112 basehttp "OPTIONS /customers/ HTTP/1.1" 200 0
+INFO 2024-10-01 09:59:28,410 views Fetching customer list for user: qinjiahao, role: group_leader
+INFO 2024-10-01 09:59:28,412 views Group leader qinjiahao retrieving customers for their group
+INFO 2024-10-01 09:59:28,443 basehttp "GET /customers/ HTTP/1.1" 200 10350
+INFO 2024-10-01 09:59:28,443 basehttp "GET /customers/ HTTP/1.1" 200 10350
+INFO 2024-10-01 09:59:55,252 basehttp "OPTIONS /customer-detail/167/ HTTP/1.1" 200 0
+INFO 2024-10-01 09:59:55,252 basehttp "OPTIONS /customer-detail/167/ HTTP/1.1" 200 0
+INFO 2024-10-01 09:59:55,530 permissions Checking permissions for user: qinjiahao, role: group_leader
+INFO 2024-10-01 09:59:55,530 permissions User qinjiahao is a group leader, granting permissions for group members.
+INFO 2024-10-01 09:59:55,534 basehttp "GET /customer-detail/167/ HTTP/1.1" 200 385
+INFO 2024-10-01 09:59:55,534 basehttp "GET /customer-detail/167/ HTTP/1.1" 200 385
+INFO 2024-10-01 09:59:59,353 views Fetching customer list for user: qinjiahao, role: group_leader
+INFO 2024-10-01 09:59:59,354 views Group leader qinjiahao retrieving customers for their group
+INFO 2024-10-01 09:59:59,386 basehttp "GET /customers/ HTTP/1.1" 200 10350
+INFO 2024-10-01 09:59:59,386 basehttp "GET /customers/ HTTP/1.1" 200 10350
+INFO 2024-10-01 10:00:18,254 basehttp "OPTIONS /register/ HTTP/1.1" 200 0
+INFO 2024-10-01 10:00:18,254 basehttp "OPTIONS /register/ HTTP/1.1" 200 0
+INFO 2024-10-01 10:00:18,321 views RegisterView has been called
+INFO 2024-10-01 10:00:18,322 views Received registration data - Username: 魏豪
+INFO 2024-10-01 10:00:18,342 views Creating new user - Username: 魏豪, Role: user
+INFO 2024-10-01 10:00:19,011 views User 魏豪 created successfully with role: user
+INFO 2024-10-01 10:00:19,016 basehttp "POST /register/ HTTP/1.1" 201 159
+INFO 2024-10-01 10:00:19,016 basehttp "POST /register/ HTTP/1.1" 201 159
+INFO 2024-10-01 10:00:21,748 views RegisterView has been called
+INFO 2024-10-01 10:00:21,749 views Received registration data - Username: 魏豪
+WARNING 2024-10-01 10:00:21,769 views Attempt to register with existing username: 魏豪
+WARNING 2024-10-01 10:00:21,770 log Bad Request: /register/
+WARNING 2024-10-01 10:00:21,770 log Bad Request: /register/
+WARNING 2024-10-01 10:00:21,770 basehttp "POST /register/ HTTP/1.1" 400 32
+WARNING 2024-10-01 10:00:21,770 basehttp "POST /register/ HTTP/1.1" 400 32
+INFO 2024-10-01 10:00:22,540 views RegisterView has been called
+INFO 2024-10-01 10:00:22,540 views Received registration data - Username: 魏豪
+WARNING 2024-10-01 10:00:22,560 views Attempt to register with existing username: 魏豪
+WARNING 2024-10-01 10:00:22,561 log Bad Request: /register/
+WARNING 2024-10-01 10:00:22,561 log Bad Request: /register/
+WARNING 2024-10-01 10:00:22,561 basehttp "POST /register/ HTTP/1.1" 400 32
+WARNING 2024-10-01 10:00:22,561 basehttp "POST /register/ HTTP/1.1" 400 32
+INFO 2024-10-01 10:00:43,973 basehttp "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2024-10-01 10:00:43,973 basehttp "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2024-10-01 10:00:44,045 views LoginView has been called
+INFO 2024-10-01 10:00:44,046 views Received login data: 魏豪, Weih0818
+INFO 2024-10-01 10:00:44,727 views Serialized user data: {'id': 34, 'username': '魏豪', 'email': '', 'role': 'user'}
+INFO 2024-10-01 10:00:44,727 views Response data to be returned: {'message': 'LoginView is working', 'token': '5f720d62c1e7b2553795a4412895c2341e309c63', 'username': '魏豪', 'role': 'user'}
+INFO 2024-10-01 10:00:44,727 basehttp "POST /login/ HTTP/1.1" 200 119
+INFO 2024-10-01 10:00:44,727 basehttp "POST /login/ HTTP/1.1" 200 119
+INFO 2024-10-01 10:00:45,040 basehttp "OPTIONS /customers/ HTTP/1.1" 200 0
+INFO 2024-10-01 10:00:45,040 basehttp "OPTIONS /customers/ HTTP/1.1" 200 0
+INFO 2024-10-01 10:00:45,132 views Fetching customer list for user: 魏豪, role: user
+INFO 2024-10-01 10:00:45,133 views Regular user 魏豪 retrieving only their own customers
+INFO 2024-10-01 10:00:45,135 basehttp "GET /customers/ HTTP/1.1" 200 2
+INFO 2024-10-01 10:00:45,135 basehttp "GET /customers/ HTTP/1.1" 200 2
+INFO 2024-10-01 10:02:48,610 basehttp "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2024-10-01 10:02:48,610 basehttp "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2024-10-01 10:02:48,891 views LoginView has been called
+INFO 2024-10-01 10:02:48,891 views Received login data: 魏豪, Weih0818
+INFO 2024-10-01 10:02:49,570 views Serialized user data: {'id': 34, 'username': '魏豪', 'email': '', 'role': 'user'}
+INFO 2024-10-01 10:02:49,570 views Response data to be returned: {'message': 'LoginView is working', 'token': '5f720d62c1e7b2553795a4412895c2341e309c63', 'username': '魏豪', 'role': 'user'}
+INFO 2024-10-01 10:02:49,570 basehttp "POST /login/ HTTP/1.1" 200 119
+INFO 2024-10-01 10:02:49,570 basehttp "POST /login/ HTTP/1.1" 200 119
+INFO 2024-10-01 10:02:49,854 basehttp "OPTIONS /customers/ HTTP/1.1" 200 0
+INFO 2024-10-01 10:02:49,854 basehttp "OPTIONS /customers/ HTTP/1.1" 200 0
+INFO 2024-10-01 10:02:50,137 views Fetching customer list for user: 魏豪, role: user
+INFO 2024-10-01 10:02:50,137 views Regular user 魏豪 retrieving only their own customers
+INFO 2024-10-01 10:02:50,139 basehttp "GET /customers/ HTTP/1.1" 200 2
+INFO 2024-10-01 10:02:50,139 basehttp "GET /customers/ HTTP/1.1" 200 2
+INFO 2024-10-01 10:03:16,921 basehttp - Broken pipe from ('183.217.80.247', 11247)
+INFO 2024-10-01 10:03:16,921 basehttp - Broken pipe from ('183.217.80.247', 11247)
+INFO 2024-10-01 10:03:21,512 views Fetching customer list for user: 魏豪, role: user
+INFO 2024-10-01 10:03:21,513 views Regular user 魏豪 retrieving only their own customers
+INFO 2024-10-01 10:03:21,515 basehttp "GET /customers/ HTTP/1.1" 200 2
+INFO 2024-10-01 10:03:21,515 basehttp "GET /customers/ HTTP/1.1" 200 2
+INFO 2024-10-01 10:03:22,132 views Fetching customer list for user: 魏豪, role: user
+INFO 2024-10-01 10:03:22,133 views Regular user 魏豪 retrieving only their own customers
+INFO 2024-10-01 10:03:22,135 basehttp "GET /customers/ HTTP/1.1" 200 2
+INFO 2024-10-01 10:03:22,135 basehttp "GET /customers/ HTTP/1.1" 200 2
+INFO 2024-10-01 10:05:17,440 basehttp - Broken pipe from ('183.217.80.247', 9277)
+INFO 2024-10-01 10:05:17,440 basehttp - Broken pipe from ('183.217.80.247', 9277)
+INFO 2024-10-01 10:13:06,942 autoreload /root/crm_object/crm_backend/sales/serializers.py changed, reloading.
+INFO 2024-10-01 10:13:06,942 autoreload /root/crm_object/crm_backend/sales/serializers.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 01, 2024 - 00:08:14
+Django version 5.1.1, using settings 'crm_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Fetching customer with ID: 2
+Fetching customer with ID: 37
+Fetching customer with ID: 4
+Fetching customer with ID: 78
+Fetching customer with ID: 78
+Fetching customer with ID: 78
+Fetching customer with ID: 167
+INFO 2024-10-01 10:13:07,599 autoreload Watching for file changes with StatReloader
+INFO 2024-10-01 10:13:07,599 autoreload Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/management/base.py", line 486, in check
+    all_issues = checks.run_checks(
+  File "/usr/local/lib/python3.10/dist-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.10/dist-packages/django/urls/resolvers.py", line 531, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.10/dist-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.10/dist-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/crm_object/crm_backend/crm_backend/urls.py", line 25, in <module>
+    path('',include('sales.urls')),
+  File "/usr/local/lib/python3.10/dist-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/crm_object/crm_backend/sales/urls.py", line 2, in <module>
+    from .views import LoginView  # 从sales应用的views模块导入LoginView类
+  File "/root/crm_object/crm_backend/sales/views.py", line 7, in <module>
+    from .serializers import CustomerSerializer # 从当前目录导入CustomerSerializer序列化器，用于将客户数据转换为JSON格式
+ImportError: cannot import name 'CustomerSerializer' from 'sales.serializers' (/root/crm_object/crm_backend/sales/serializers.py)
+INFO 2024-10-01 10:13:16,934 autoreload /root/crm_object/crm_backend/sales/serializers.py changed, reloading.
+INFO 2024-10-01 10:13:16,934 autoreload /root/crm_object/crm_backend/sales/serializers.py changed, reloading.
+Performing system checks...
+
+INFO 2024-10-01 10:13:17,350 autoreload Watching for file changes with StatReloader
+INFO 2024-10-01 10:13:17,350 autoreload Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/management/base.py", line 486, in check
+    all_issues = checks.run_checks(
+  File "/usr/local/lib/python3.10/dist-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.10/dist-packages/django/urls/resolvers.py", line 531, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.10/dist-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.10/dist-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/crm_object/crm_backend/crm_backend/urls.py", line 25, in <module>
+    path('',include('sales.urls')),
+  File "/usr/local/lib/python3.10/dist-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/crm_object/crm_backend/sales/urls.py", line 2, in <module>
+    from .views import LoginView  # 从sales应用的views模块导入LoginView类
+  File "/root/crm_object/crm_backend/sales/views.py", line 18, in <module>
+    from .serializers import SalesUserSerializer
+ImportError: cannot import name 'SalesUserSerializer' from 'sales.serializers' (/root/crm_object/crm_backend/sales/serializers.py)
+INFO 2024-10-01 10:13:28,747 autoreload /root/crm_object/crm_backend/sales/serializers.py changed, reloading.
+INFO 2024-10-01 10:13:28,747 autoreload /root/crm_object/crm_backend/sales/serializers.py changed, reloading.
+Performing system checks...
+
+INFO 2024-10-01 10:13:29,168 autoreload Watching for file changes with StatReloader
+INFO 2024-10-01 10:13:29,168 autoreload Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/management/base.py", line 486, in check
+    all_issues = checks.run_checks(
+  File "/usr/local/lib/python3.10/dist-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.10/dist-packages/django/urls/resolvers.py", line 531, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.10/dist-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.10/dist-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/crm_object/crm_backend/crm_backend/urls.py", line 25, in <module>
+    path('',include('sales.urls')),
+  File "/usr/local/lib/python3.10/dist-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/crm_object/crm_backend/sales/urls.py", line 2, in <module>
+    from .views import LoginView  # 从sales应用的views模块导入LoginView类
+  File "/root/crm_object/crm_backend/sales/views.py", line 18, in <module>
+    from .serializers import SalesUserSerializer
+ImportError: cannot import name 'SalesUserSerializer' from 'sales.serializers' (/root/crm_object/crm_backend/sales/serializers.py)
+INFO 2024-10-01 10:17:40,484 autoreload Watching for file changes with StatReloader
+INFO 2024-10-01 10:17:40,484 autoreload Watching for file changes with StatReloader
+INFO 2024-10-01 10:20:09,909 autoreload Watching for file changes with StatReloader
+INFO 2024-10-01 10:20:09,909 autoreload Watching for file changes with StatReloader
+Error: That port is already in use.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 01, 2024 - 10:17:40
+Django version 5.1.1, using settings 'crm_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+INFO 2024-10-01 10:21:48,164 autoreload Watching for file changes with StatReloader
+INFO 2024-10-01 10:21:48,164 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-01 10:22:14,514 log Not Found: /
+WARNING 2024-10-01 10:22:14,514 log Not Found: /
+WARNING 2024-10-01 10:22:14,514 basehttp "GET / HTTP/1.1" 404 3494
+WARNING 2024-10-01 10:22:14,514 basehttp "GET / HTTP/1.1" 404 3494
+INFO 2024-10-01 10:22:18,147 basehttp "GET /admin/ HTTP/1.1" 200 11163
+INFO 2024-10-01 10:22:18,147 basehttp "GET /admin/ HTTP/1.1" 200 11163
+INFO 2024-10-01 10:22:18,190 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-10-01 10:22:18,190 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-10-01 10:22:18,312 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-10-01 10:22:18,312 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-10-01 10:22:18,388 basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2024-10-01 10:22:18,388 basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2024-10-01 10:22:21,295 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69113
+INFO 2024-10-01 10:22:21,295 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69113
+INFO 2024-10-01 10:22:21,478 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-10-01 10:22:21,478 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-10-01 10:22:21,496 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:22:21,496 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:22:21,546 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-10-01 10:22:21,546 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-10-01 10:22:21,546 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-10-01 10:22:21,546 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-10-01 10:22:21,615 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-10-01 10:22:21,615 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-10-01 10:22:21,617 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-10-01 10:22:21,617 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-10-01 10:22:21,645 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-10-01 10:22:21,645 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-10-01 10:22:21,645 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-10-01 10:22:21,645 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-10-01 10:22:42,719 views Received token: Token 2d66f73388d5d37c3d7abddbb9af73331f34030f
+INFO 2024-10-01 10:22:42,721 views Token is valid for user: austin
+INFO 2024-10-01 10:22:42,722 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 10:22:42,722 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 10:22:42,810 permissions Checking permissions for user: austin, role: admin
+INFO 2024-10-01 10:22:42,810 permissions User austin is superuser, granting all permissions.
+INFO 2024-10-01 10:22:42,813 basehttp "GET /customer-detail/78/ HTTP/1.1" 200 419
+INFO 2024-10-01 10:22:42,813 basehttp "GET /customer-detail/78/ HTTP/1.1" 200 419
+INFO 2024-10-01 10:22:55,174 views Received token: Token 2d66f73388d5d37c3d7abddbb9af73331f34030f
+INFO 2024-10-01 10:22:55,177 views Token is valid for user: austin
+INFO 2024-10-01 10:22:55,178 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 10:22:55,178 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 10:22:55,264 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 10:22:55,265 views Superuser austin retrieving all customers
+INFO 2024-10-01 10:22:55,474 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 10:22:55,474 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 10:22:58,836 basehttp "OPTIONS /customer-detail/22/ HTTP/1.1" 200 0
+INFO 2024-10-01 10:22:58,836 basehttp "OPTIONS /customer-detail/22/ HTTP/1.1" 200 0
+INFO 2024-10-01 10:22:58,918 permissions Checking permissions for user: austin, role: admin
+INFO 2024-10-01 10:22:58,918 permissions User austin is superuser, granting all permissions.
+INFO 2024-10-01 10:22:58,921 basehttp "GET /customer-detail/22/ HTTP/1.1" 200 436
+INFO 2024-10-01 10:22:58,921 basehttp "GET /customer-detail/22/ HTTP/1.1" 200 436
+INFO 2024-10-01 10:23:01,093 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 10:23:01,093 views Superuser austin retrieving all customers
+INFO 2024-10-01 10:23:01,291 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 10:23:01,291 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 10:24:10,541 basehttp "GET /admin/ HTTP/1.1" 200 11163
+INFO 2024-10-01 10:24:10,541 basehttp "GET /admin/ HTTP/1.1" 200 11163
+INFO 2024-10-01 10:24:15,282 basehttp "GET /admin/sales/salesuser/ HTTP/1.1" 200 27754
+INFO 2024-10-01 10:24:15,282 basehttp "GET /admin/sales/salesuser/ HTTP/1.1" 200 27754
+INFO 2024-10-01 10:24:15,370 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:24:15,370 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:24:18,931 basehttp "GET /admin/ HTTP/1.1" 200 11163
+INFO 2024-10-01 10:24:18,931 basehttp "GET /admin/ HTTP/1.1" 200 11163
+INFO 2024-10-01 10:24:20,112 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69113
+INFO 2024-10-01 10:24:20,112 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69113
+INFO 2024-10-01 10:24:20,218 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:24:20,218 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:24:24,525 basehttp "GET /admin/sales/customer/?o=-6 HTTP/1.1" 200 72370
+INFO 2024-10-01 10:24:24,525 basehttp "GET /admin/sales/customer/?o=-6 HTTP/1.1" 200 72370
+INFO 2024-10-01 10:24:24,607 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:24:24,607 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:24:59,003 basehttp "GET /admin/sales/customer/?o=6 HTTP/1.1" 200 72104
+INFO 2024-10-01 10:24:59,003 basehttp "GET /admin/sales/customer/?o=6 HTTP/1.1" 200 72104
+INFO 2024-10-01 10:24:59,185 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:24:59,185 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:25:02,110 basehttp "GET /admin/sales/customer/?o=-6 HTTP/1.1" 200 72370
+INFO 2024-10-01 10:25:02,110 basehttp "GET /admin/sales/customer/?o=-6 HTTP/1.1" 200 72370
+INFO 2024-10-01 10:25:02,366 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:25:02,366 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:25:14,495 basehttp "GET /admin/sales/customer/?o=1.-6 HTTP/1.1" 200 73089
+INFO 2024-10-01 10:25:14,495 basehttp "GET /admin/sales/customer/?o=1.-6 HTTP/1.1" 200 73089
+INFO 2024-10-01 10:25:14,575 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:25:14,575 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:26:50,934 autoreload /root/crm_object/crm_backend/sales/serializers.py changed, reloading.
+INFO 2024-10-01 10:26:50,934 autoreload /root/crm_object/crm_backend/sales/serializers.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 01, 2024 - 10:21:48
+Django version 5.1.1, using settings 'crm_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Fetching customer with ID: 78
+Fetching customer with ID: 22
+INFO 2024-10-01 10:26:51,355 autoreload Watching for file changes with StatReloader
+INFO 2024-10-01 10:26:51,355 autoreload Watching for file changes with StatReloader
+INFO 2024-10-01 10:27:05,193 views Received token: Token 2d66f73388d5d37c3d7abddbb9af73331f34030f
+INFO 2024-10-01 10:27:05,196 views Token is valid for user: austin
+INFO 2024-10-01 10:27:05,197 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 10:27:05,197 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 10:27:05,284 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 10:27:05,284 views Superuser austin retrieving all customers
+INFO 2024-10-01 10:27:05,454 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 10:27:05,454 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 10:27:10,859 basehttp "OPTIONS /customer-detail/39/ HTTP/1.1" 200 0
+INFO 2024-10-01 10:27:10,859 basehttp "OPTIONS /customer-detail/39/ HTTP/1.1" 200 0
+INFO 2024-10-01 10:27:10,944 permissions Checking permissions for user: austin, role: admin
+INFO 2024-10-01 10:27:10,945 permissions User austin is superuser, granting all permissions.
+INFO 2024-10-01 10:27:10,947 basehttp "GET /customer-detail/39/ HTTP/1.1" 200 403
+INFO 2024-10-01 10:27:10,947 basehttp "GET /customer-detail/39/ HTTP/1.1" 200 403
+INFO 2024-10-01 10:28:26,026 autoreload /root/crm_object/crm_backend/sales/serializers.py changed, reloading.
+INFO 2024-10-01 10:28:26,026 autoreload /root/crm_object/crm_backend/sales/serializers.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 01, 2024 - 10:26:51
+Django version 5.1.1, using settings 'crm_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Fetching customer with ID: 39
+INFO 2024-10-01 10:28:26,441 autoreload Watching for file changes with StatReloader
+INFO 2024-10-01 10:28:26,441 autoreload Watching for file changes with StatReloader
+INFO 2024-10-01 10:28:48,976 views Received token: Token 2d66f73388d5d37c3d7abddbb9af73331f34030f
+INFO 2024-10-01 10:28:48,978 views Token is valid for user: austin
+INFO 2024-10-01 10:28:48,979 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 10:28:48,979 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 10:28:49,079 permissions Checking permissions for user: austin, role: admin
+INFO 2024-10-01 10:28:49,079 permissions User austin is superuser, granting all permissions.
+INFO 2024-10-01 10:28:49,082 basehttp "GET /customer-detail/39/ HTTP/1.1" 200 403
+INFO 2024-10-01 10:28:49,082 basehttp "GET /customer-detail/39/ HTTP/1.1" 200 403
+INFO 2024-10-01 10:28:54,995 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 10:28:54,995 views Superuser austin retrieving all customers
+INFO 2024-10-01 10:28:55,166 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 10:28:55,166 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 10:29:06,676 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 10:29:06,676 views Superuser austin retrieving all customers
+INFO 2024-10-01 10:29:06,838 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 10:29:06,838 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 10:29:09,330 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 10:29:09,330 views Superuser austin retrieving all customers
+INFO 2024-10-01 10:29:09,501 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 10:29:09,501 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 10:29:13,055 permissions Checking permissions for user: austin, role: admin
+INFO 2024-10-01 10:29:13,055 permissions User austin is superuser, granting all permissions.
+INFO 2024-10-01 10:29:13,058 basehttp "GET /customer-detail/39/ HTTP/1.1" 200 403
+INFO 2024-10-01 10:29:13,058 basehttp "GET /customer-detail/39/ HTTP/1.1" 200 403
+INFO 2024-10-01 10:29:16,394 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 10:29:16,394 views Superuser austin retrieving all customers
+INFO 2024-10-01 10:29:16,567 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 10:29:16,567 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 10:29:31,059 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69113
+INFO 2024-10-01 10:29:31,059 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69113
+INFO 2024-10-01 10:29:31,128 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:29:31,128 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:30:40,670 views Creating new customer by user: austin
+INFO 2024-10-01 10:30:40,674 basehttp "POST /customers/ HTTP/1.1" 201 366
+INFO 2024-10-01 10:30:40,674 basehttp "POST /customers/ HTTP/1.1" 201 366
+INFO 2024-10-01 10:30:42,819 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 10:30:42,819 views Superuser austin retrieving all customers
+INFO 2024-10-01 10:30:42,999 basehttp "GET /customers/ HTTP/1.1" 200 74859
+INFO 2024-10-01 10:30:42,999 basehttp "GET /customers/ HTTP/1.1" 200 74859
+INFO 2024-10-01 10:30:56,624 basehttp "OPTIONS /customer-detail/7/ HTTP/1.1" 200 0
+INFO 2024-10-01 10:30:56,624 basehttp "OPTIONS /customer-detail/7/ HTTP/1.1" 200 0
+INFO 2024-10-01 10:30:56,709 permissions Checking permissions for user: austin, role: admin
+INFO 2024-10-01 10:30:56,709 permissions User austin is superuser, granting all permissions.
+INFO 2024-10-01 10:30:56,713 basehttp "GET /customer-detail/7/ HTTP/1.1" 200 376
+INFO 2024-10-01 10:30:56,713 basehttp "GET /customer-detail/7/ HTTP/1.1" 200 376
+INFO 2024-10-01 10:31:10,262 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69113
+INFO 2024-10-01 10:31:10,262 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69113
+INFO 2024-10-01 10:31:10,379 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:31:10,379 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:31:15,507 basehttp "GET /admin/sales/customer/?all= HTTP/1.1" 200 119813
+INFO 2024-10-01 10:31:15,507 basehttp "GET /admin/sales/customer/?all= HTTP/1.1" 200 119813
+INFO 2024-10-01 10:31:15,580 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:31:15,580 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:31:32,587 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 10:31:32,587 views Superuser austin retrieving all customers
+INFO 2024-10-01 10:31:32,755 basehttp "GET /customers/ HTTP/1.1" 200 74859
+INFO 2024-10-01 10:31:32,755 basehttp "GET /customers/ HTTP/1.1" 200 74859
+INFO 2024-10-01 10:31:38,239 views Received token: Token 2d66f73388d5d37c3d7abddbb9af73331f34030f
+INFO 2024-10-01 10:31:38,241 views Token is valid for user: austin
+INFO 2024-10-01 10:31:38,242 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 10:31:38,242 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 10:31:38,327 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 10:31:38,327 views Superuser austin retrieving all customers
+INFO 2024-10-01 10:31:38,498 basehttp "GET /customers/ HTTP/1.1" 200 74859
+INFO 2024-10-01 10:31:38,498 basehttp "GET /customers/ HTTP/1.1" 200 74859
+INFO 2024-10-01 10:31:59,394 basehttp "OPTIONS /customer-detail/185/ HTTP/1.1" 200 0
+INFO 2024-10-01 10:31:59,394 basehttp "OPTIONS /customer-detail/185/ HTTP/1.1" 200 0
+INFO 2024-10-01 10:31:59,480 permissions Checking permissions for user: austin, role: admin
+INFO 2024-10-01 10:31:59,480 permissions User austin is superuser, granting all permissions.
+INFO 2024-10-01 10:31:59,483 basehttp "GET /customer-detail/185/ HTTP/1.1" 200 366
+INFO 2024-10-01 10:31:59,483 basehttp "GET /customer-detail/185/ HTTP/1.1" 200 366
+INFO 2024-10-01 10:32:01,977 permissions Checking permissions for user: austin, role: admin
+INFO 2024-10-01 10:32:01,977 permissions User austin is superuser, granting all permissions.
+INFO 2024-10-01 10:32:01,980 basehttp "DELETE /customer-detail/185/ HTTP/1.1" 204 0
+INFO 2024-10-01 10:32:01,980 basehttp "DELETE /customer-detail/185/ HTTP/1.1" 204 0
+INFO 2024-10-01 10:32:02,072 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 10:32:02,072 views Superuser austin retrieving all customers
+INFO 2024-10-01 10:32:02,247 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 10:32:02,247 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 10:32:32,573 basehttp "OPTIONS /customer-detail/1/ HTTP/1.1" 200 0
+INFO 2024-10-01 10:32:32,573 basehttp "OPTIONS /customer-detail/1/ HTTP/1.1" 200 0
+INFO 2024-10-01 10:32:32,660 permissions Checking permissions for user: austin, role: admin
+INFO 2024-10-01 10:32:32,660 permissions User austin is superuser, granting all permissions.
+INFO 2024-10-01 10:32:32,663 basehttp "GET /customer-detail/1/ HTTP/1.1" 200 384
+INFO 2024-10-01 10:32:32,663 basehttp "GET /customer-detail/1/ HTTP/1.1" 200 384
+INFO 2024-10-01 10:43:43,215 autoreload /root/crm_object/crm_backend/sales/models.py changed, reloading.
+INFO 2024-10-01 10:43:43,215 autoreload /root/crm_object/crm_backend/sales/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 01, 2024 - 10:28:26
+Django version 5.1.1, using settings 'crm_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Fetching customer with ID: 39
+Fetching customer with ID: 39
+Fetching customer with ID: 7
+Fetching customer with ID: 185
+Fetching customer with ID: 1
+INFO 2024-10-01 10:43:43,669 autoreload Watching for file changes with StatReloader
+INFO 2024-10-01 10:43:43,669 autoreload Watching for file changes with StatReloader
+INFO 2024-10-01 10:43:50,422 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 10:43:50,422 views Superuser austin retrieving all customers
+INFO 2024-10-01 10:43:50,590 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 10:43:50,590 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 10:43:52,843 views Received token: Token 2d66f73388d5d37c3d7abddbb9af73331f34030f
+INFO 2024-10-01 10:43:52,845 views Token is valid for user: austin
+INFO 2024-10-01 10:43:52,846 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 10:43:52,846 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 10:43:52,951 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 10:43:52,951 views Superuser austin retrieving all customers
+INFO 2024-10-01 10:43:53,122 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 10:43:53,122 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 10:43:55,484 basehttp "OPTIONS /customer-detail/44/ HTTP/1.1" 200 0
+INFO 2024-10-01 10:43:55,484 basehttp "OPTIONS /customer-detail/44/ HTTP/1.1" 200 0
+INFO 2024-10-01 10:43:55,568 permissions Checking permissions for user: austin, role: admin
+INFO 2024-10-01 10:43:55,568 permissions User austin is superuser, granting all permissions.
+INFO 2024-10-01 10:43:55,571 basehttp "GET /customer-detail/44/ HTTP/1.1" 200 384
+INFO 2024-10-01 10:43:55,571 basehttp "GET /customer-detail/44/ HTTP/1.1" 200 384
+INFO 2024-10-01 10:46:01,150 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 10:46:01,151 views Superuser austin retrieving all customers
+INFO 2024-10-01 10:46:01,321 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 10:46:01,321 basehttp "GET /customers/ HTTP/1.1" 200 74481
+INFO 2024-10-01 10:46:48,974 views Creating new customer by user: austin
+INFO 2024-10-01 10:46:48,977 basehttp "POST /customers/ HTTP/1.1" 201 385
+INFO 2024-10-01 10:46:48,977 basehttp "POST /customers/ HTTP/1.1" 201 385
+INFO 2024-10-01 10:46:50,405 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 10:46:50,405 views Superuser austin retrieving all customers
+INFO 2024-10-01 10:46:50,570 basehttp "GET /customers/ HTTP/1.1" 200 74878
+INFO 2024-10-01 10:46:50,570 basehttp "GET /customers/ HTTP/1.1" 200 74878
+INFO 2024-10-01 10:46:53,967 basehttp "OPTIONS /customer-detail/186/ HTTP/1.1" 200 0
+INFO 2024-10-01 10:46:53,967 basehttp "OPTIONS /customer-detail/186/ HTTP/1.1" 200 0
+INFO 2024-10-01 10:46:54,051 permissions Checking permissions for user: austin, role: admin
+INFO 2024-10-01 10:46:54,051 permissions User austin is superuser, granting all permissions.
+INFO 2024-10-01 10:46:54,054 basehttp "GET /customer-detail/186/ HTTP/1.1" 200 385
+INFO 2024-10-01 10:46:54,054 basehttp "GET /customer-detail/186/ HTTP/1.1" 200 385
+INFO 2024-10-01 10:49:14,597 basehttp code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+INFO 2024-10-01 10:49:14,597 basehttp code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+WARNING 2024-10-01 10:49:14,598 basehttp "  /*à     Cookie: mstshash=Administr" 400 -
+WARNING 2024-10-01 10:49:14,598 basehttp "  /*à     Cookie: mstshash=Administr" 400 -
+INFO 2024-10-01 10:54:30,342 autoreload /root/crm_object/crm_backend/sales/views.py changed, reloading.
+INFO 2024-10-01 10:54:30,342 autoreload /root/crm_object/crm_backend/sales/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 01, 2024 - 10:43:43
+Django version 5.1.1, using settings 'crm_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Fetching customer with ID: 44
+Fetching customer with ID: 186
+INFO 2024-10-01 10:54:30,774 autoreload Watching for file changes with StatReloader
+INFO 2024-10-01 10:54:30,774 autoreload Watching for file changes with StatReloader
+INFO 2024-10-01 10:57:49,913 views Received token: Token 2d66f73388d5d37c3d7abddbb9af73331f34030f
+INFO 2024-10-01 10:57:49,915 views Token is valid for user: austin
+INFO 2024-10-01 10:57:49,916 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 10:57:49,916 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 10:57:49,999 permissions Checking permissions for user: austin, role: admin
+INFO 2024-10-01 10:57:49,999 permissions User austin is superuser, granting all permissions.
+INFO 2024-10-01 10:57:50,002 basehttp "GET /customer-detail/186/ HTTP/1.1" 200 385
+INFO 2024-10-01 10:57:50,002 basehttp "GET /customer-detail/186/ HTTP/1.1" 200 385
+INFO 2024-10-01 10:58:09,648 basehttp "GET /admin/sales/customer/?all= HTTP/1.1" 200 119818
+INFO 2024-10-01 10:58:09,648 basehttp "GET /admin/sales/customer/?all= HTTP/1.1" 200 119818
+INFO 2024-10-01 10:58:09,764 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:58:09,764 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:58:14,756 basehttp "GET /admin/sales/customer/?all= HTTP/1.1" 200 119818
+INFO 2024-10-01 10:58:14,756 basehttp "GET /admin/sales/customer/?all= HTTP/1.1" 200 119818
+INFO 2024-10-01 10:58:14,832 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:58:14,832 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:58:22,668 basehttp "GET /admin/sales/customer/186/change/?_changelist_filters=all%3D HTTP/1.1" 200 17907
+INFO 2024-10-01 10:58:22,668 basehttp "GET /admin/sales/customer/186/change/?_changelist_filters=all%3D HTTP/1.1" 200 17907
+INFO 2024-10-01 10:58:22,720 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2024-10-01 10:58:22,720 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2024-10-01 10:58:22,742 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:58:22,742 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 10:58:22,751 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2024-10-01 10:58:22,751 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2024-10-01 10:58:22,809 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2024-10-01 10:58:22,809 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2024-10-01 10:58:22,844 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2024-10-01 10:58:22,844 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2024-10-01 10:58:30,146 basehttp "GET /admin/sales/customer/?all= HTTP/1.1" 200 119818
+INFO 2024-10-01 10:58:30,146 basehttp "GET /admin/sales/customer/?all= HTTP/1.1" 200 119818
+INFO 2024-10-01 10:58:33,682 basehttp "GET /admin/ HTTP/1.1" 200 11163
+INFO 2024-10-01 10:58:33,682 basehttp "GET /admin/ HTTP/1.1" 200 11163
+INFO 2024-10-01 11:00:57,210 permissions Checking permissions for user: austin, role: admin
+INFO 2024-10-01 11:00:57,210 permissions User austin is superuser, granting all permissions.
+INFO 2024-10-01 11:00:57,214 basehttp "GET /customer-detail/7/ HTTP/1.1" 200 376
+INFO 2024-10-01 11:00:57,214 basehttp "GET /customer-detail/7/ HTTP/1.1" 200 376
+INFO 2024-10-01 11:04:17,033 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69113
+INFO 2024-10-01 11:04:17,033 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69113
+INFO 2024-10-01 11:04:17,152 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 11:04:17,152 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 11:04:37,379 basehttp "GET /admin/sales/customer/11/change/ HTTP/1.1" 200 17818
+INFO 2024-10-01 11:04:37,379 basehttp "GET /admin/sales/customer/11/change/ HTTP/1.1" 200 17818
+INFO 2024-10-01 11:04:37,452 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 11:04:37,452 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 11:04:42,208 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69113
+INFO 2024-10-01 11:04:42,208 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69113
+INFO 2024-10-01 11:09:57,441 autoreload /root/crm_object/crm_backend/sales/admin.py changed, reloading.
+INFO 2024-10-01 11:09:57,441 autoreload /root/crm_object/crm_backend/sales/admin.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 01, 2024 - 10:54:30
+Django version 5.1.1, using settings 'crm_backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Fetching customer with ID: 186
+Received data: {}
+Fetching customer with ID: 7
+Received data: {}
+INFO 2024-10-01 11:09:57,883 autoreload Watching for file changes with StatReloader
+INFO 2024-10-01 11:09:57,883 autoreload Watching for file changes with StatReloader
+INFO 2024-10-01 11:10:03,311 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69113
+INFO 2024-10-01 11:10:03,311 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69113
+INFO 2024-10-01 11:10:03,431 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 11:10:03,431 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 11:55:11,943 basehttp code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+INFO 2024-10-01 11:55:11,943 basehttp code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+WARNING 2024-10-01 11:55:11,943 basehttp "  /*à     Cookie: mstshash=Administr" 400 -
+WARNING 2024-10-01 11:55:11,943 basehttp "  /*à     Cookie: mstshash=Administr" 400 -
+INFO 2024-10-01 12:06:29,506 basehttp code 400, message Bad request syntax ('JDWP-Handshake')
+INFO 2024-10-01 12:06:29,506 basehttp code 400, message Bad request syntax ('JDWP-Handshake')
+WARNING 2024-10-01 12:06:29,507 basehttp "JDWP-Handshake" 400 -
+WARNING 2024-10-01 12:06:29,507 basehttp "JDWP-Handshake" 400 -
+WARNING 2024-10-01 12:43:13,527 log Not Found: /
+WARNING 2024-10-01 12:43:13,527 log Not Found: /
+WARNING 2024-10-01 12:43:13,528 basehttp "GET / HTTP/1.1" 404 3497
+WARNING 2024-10-01 12:43:13,528 basehttp "GET / HTTP/1.1" 404 3497
+WARNING 2024-10-01 12:52:42,974 log Not Found: /example.com:443
+WARNING 2024-10-01 12:52:42,974 log Not Found: /example.com:443
+WARNING 2024-10-01 12:52:42,974 basehttp "CONNECT example.com:443 HTTP/1.1" 404 1850
+WARNING 2024-10-01 12:52:42,974 basehttp "CONNECT example.com:443 HTTP/1.1" 404 1850
+INFO 2024-10-01 13:15:19,057 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69113
+INFO 2024-10-01 13:15:19,057 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69113
+INFO 2024-10-01 13:15:19,204 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 13:15:19,204 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+WARNING 2024-10-01 13:15:19,567 log Not Found: /favicon.ico
+WARNING 2024-10-01 13:15:19,567 log Not Found: /favicon.ico
+WARNING 2024-10-01 13:15:19,568 basehttp "GET /favicon.ico HTTP/1.1" 404 3548
+WARNING 2024-10-01 13:15:19,568 basehttp "GET /favicon.ico HTTP/1.1" 404 3548
+INFO 2024-10-01 13:17:09,531 basehttp "OPTIONS /token-verify/ HTTP/1.1" 200 0
+INFO 2024-10-01 13:17:09,531 basehttp "OPTIONS /token-verify/ HTTP/1.1" 200 0
+INFO 2024-10-01 13:17:09,612 views Received token: Token 2d66f73388d5d37c3d7abddbb9af73331f34030f
+INFO 2024-10-01 13:17:09,614 views Token is valid for user: austin
+INFO 2024-10-01 13:17:09,615 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 13:17:09,615 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 13:17:09,677 basehttp "OPTIONS /customer-detail/186/ HTTP/1.1" 200 0
+INFO 2024-10-01 13:17:09,677 basehttp "OPTIONS /customer-detail/186/ HTTP/1.1" 200 0
+INFO 2024-10-01 13:17:09,760 permissions Checking permissions for user: austin, role: admin
+INFO 2024-10-01 13:17:09,760 permissions User austin is superuser, granting all permissions.
+INFO 2024-10-01 13:17:09,763 basehttp "GET /customer-detail/186/ HTTP/1.1" 200 385
+INFO 2024-10-01 13:17:09,763 basehttp "GET /customer-detail/186/ HTTP/1.1" 200 385
+INFO 2024-10-01 13:17:12,908 basehttp "OPTIONS /customers/ HTTP/1.1" 200 0
+INFO 2024-10-01 13:17:12,908 basehttp "OPTIONS /customers/ HTTP/1.1" 200 0
+INFO 2024-10-01 13:17:12,990 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 13:17:12,990 views Superuser austin retrieving all customers
+INFO 2024-10-01 13:17:13,156 basehttp "GET /customers/ HTTP/1.1" 200 74878
+INFO 2024-10-01 13:17:13,156 basehttp "GET /customers/ HTTP/1.1" 200 74878
+INFO 2024-10-01 13:17:39,084 views Received token: Token 2d66f73388d5d37c3d7abddbb9af73331f34030f
+INFO 2024-10-01 13:17:39,087 views Token is valid for user: austin
+INFO 2024-10-01 13:17:39,087 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 13:17:39,087 basehttp "GET /token-verify/ HTTP/1.1" 200 28
+INFO 2024-10-01 13:17:39,262 views Fetching customer list for user: austin, role: admin
+INFO 2024-10-01 13:17:39,262 views Superuser austin retrieving all customers
+INFO 2024-10-01 13:17:39,431 basehttp "GET /customers/ HTTP/1.1" 200 74878
+INFO 2024-10-01 13:17:39,431 basehttp "GET /customers/ HTTP/1.1" 200 74878
+INFO 2024-10-01 13:17:40,869 basehttp "GET /admin/ HTTP/1.1" 200 11163
+INFO 2024-10-01 13:17:40,869 basehttp "GET /admin/ HTTP/1.1" 200 11163
+INFO 2024-10-01 13:17:40,934 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:40,934 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:40,945 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:40,945 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:40,948 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:40,948 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:40,949 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:40,949 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:40,950 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:40,950 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:40,956 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:40,956 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:41,005 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:41,005 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:41,026 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:41,026 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:41,030 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:41,030 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:41,035 basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:41,035 basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,436 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69113
+INFO 2024-10-01 13:17:43,436 basehttp "GET /admin/sales/customer/ HTTP/1.1" 200 69113
+INFO 2024-10-01 13:17:43,567 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,567 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,568 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,568 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,568 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,568 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,568 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,568 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,576 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,576 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,587 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 13:17:43,587 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 9327
+INFO 2024-10-01 13:17:43,620 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,620 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,624 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,624 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,624 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,624 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,625 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,625 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,678 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,678 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,686 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,686 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,699 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,699 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,700 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,700 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,702 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2024-10-01 13:17:43,702 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0

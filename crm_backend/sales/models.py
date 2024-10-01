@@ -77,10 +77,10 @@ class Customer(models.Model):
     name = models.CharField(max_length=100, verbose_name='姓名') # 客户姓名
     phone = models.CharField(max_length=20, verbose_name='电话')  # 客户电话
     wechat_id = models.CharField(max_length=50,default='', verbose_name='微信号')  # 微信号字段
-    education = models.CharField(max_length=20, choices=EDUCATION_CHOICES, default='大专', verbose_name='学历')  # 学历字段
-    major_category = models.CharField(max_length=10, choices=MAJOR_CHOICES, default='IT', verbose_name='专业类别')  # 专业类别
+    education = models.CharField(max_length=20, choices=EDUCATION_CHOICES, default='college', verbose_name='学历')  # 学历字段
+    major_category = models.CharField(max_length=10, choices=MAJOR_CHOICES, default='it', verbose_name='专业类别')  # 专业类别
     major_detail = models.CharField(max_length=100, blank=True, null=True, verbose_name='专业详细信息')  # 专业详细信息
-    status = models.CharField(max_length=15, choices=STATUS_CHOICES,default='待业', verbose_name='状态')  # 状态字段
+    status = models.CharField(max_length=15, choices=STATUS_CHOICES,default='unemployed', verbose_name='状态')  # 状态字段
     address = models.TextField(verbose_name='地址')
     
     # 创建人和修改人字段
